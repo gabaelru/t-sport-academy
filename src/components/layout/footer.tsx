@@ -1,6 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Twitter, Instagram, Facebook } from 'lucide-react';
-import Logo from './logo';
 import { Button } from '../ui/button';
 
 export default function Footer() {
@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="md:col-span-5 flex flex-col justify-between">
             <div>
               <Link href="/" className="flex items-center gap-2">
-                  <Logo className="h-8 w-auto text-primary" />
+                  <Image src="/images/logo-toquero-sport.png" alt="Toquero Sport Academy" width={32} height={32} className="h-8 w-auto" />
                   <span className="font-headline text-xl font-bold">
                   TOQUERO SPORT ACADEMY
                   </span>
