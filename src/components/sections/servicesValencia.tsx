@@ -13,7 +13,7 @@ const servicesData = [
   },
   {
     id: 'service-organizations',
-    title: 'Organizaciones - Clubs',
+    title: 'Consultoría clubes',
     description: 'Impulsamos el desarrollo de personas con servicios personalizados para organizaciones y clubes.',
     href: 'https://forms.360player.com/toquerosport/form/fc9933f6-d5e1-4baf-a076-5ea19a369a6a',
   },

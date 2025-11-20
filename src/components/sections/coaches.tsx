@@ -43,7 +43,7 @@ export default function CoachesSection() {
           <div className="space-y-2">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">Conoce a Nuestros Entrenadores</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Un equipo de profesionales dedicados y comprometidos con tu crecimiento como jugador y como persona.
+            Un equipo profesional dedicado y comprometido con tu crecimiento deportivo y personal.
             </p>
           </div>
         </div>

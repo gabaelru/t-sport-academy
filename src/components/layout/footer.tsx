@@ -17,7 +17,7 @@ export default function Footer() {
                   </span>
               </Link>
               <p className="mt-4 text-muted-foreground">
-                ¿Tienes preguntas o estás listo para inscribirte? Haz clic en el botón de inscripción. ¡Estamos deseando saber de ti!
+              ¿Todo listo para tu inscripción o tienes alguna duda? Haz clic aquí. ¡Te estamos esperando!
               </p>
             </div>
              <Button asChild className="w-full sm:w-auto font-bold mt-6" size="lg">

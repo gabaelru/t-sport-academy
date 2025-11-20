@@ -12,7 +12,7 @@ const sedesData = [
     description: 'Un completo programa de perfeccionamiento de capacidades futbolísticas para todos los niveles, en unas instalaciones de primer nivel.',
     details: [
       'Ubicación: Olabide Ikastola (Campo de Fútbol 11)',
-      'Abierto a niños y niñas de Olabide y otros centros',
+      'Podrá asistir el alumnado de la Ikastola Olabide, así como de otros centros educativos y entidades deportivas.',
       'Horario: Lunes a Jueves, 18:00 - 19:15',
       'Edades: 2007-2019 (consultar grupos)',
       'Sesiones: Existe la flexibilidad de elegir entre una, dos o tres sesiones a la semana',
