@@ -69,13 +69,13 @@
     {
       "id": "service-physiotherapy",
       "description": "Un fisioterapeuta trabajando en la pierna de un atleta.",
-      "imageUrl": "https://images.unsplash.com/photo-1662651800883-b784f138e9dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmlzaW90ZXJhcGlhJTIwYXRsZXRhfGVufDB8fHx8MTc2MzAyNjIyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Fisioterapia.webp",
       "imageHint": "fisioterapia atleta"
     },
     {
       "id": "service-organizations",
       "description": "Dos equipos de fútbol dándose la mano.",
-      "imageUrl": "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvcmdhbml6YWNpJUMzJUIzbnxlbnwwfHx8fDE3NjMwMjY5MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/Organizaciones.webp",
       "imageHint": "organización equipo"
     },
     {

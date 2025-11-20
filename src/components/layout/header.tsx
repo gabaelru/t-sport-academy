@@ -22,7 +22,7 @@ import {
 
 const navLinks = [
     {
-    label: 'TS Vitoria Academy',
+    label: 'Academia Vitoria',
     isDropdown: true,
     items: [
       { href: '/services-vitoria', label: 'Toquero Sport Servicios' },
@@ -32,7 +32,7 @@ const navLinks = [
     ],
   },
   {
-    label: 'TS Valencia Academy',
+    label: 'Academia Valencia',
     isDropdown: true,
     items: [
       { href: '/services-valencia', label: 'Toquero Sport Servicios' },
