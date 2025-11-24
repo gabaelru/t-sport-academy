@@ -1,0 +1,94 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Una toma amplia de un estadio de fútbol al atardecer.",
+      "imageUrl": "https://images.unsplash.com/photo-1506626637585-0802df0d0269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmb290YmFsbCUyMHN0YWRpdW18ZW58MHx8fHwxNzYwOTUzMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "estadio futbol"
+    },
+    {
+      "id": "gaizka-toquero",
+      "description": "Retrato de Gaizka Toquero.",
+      "imageUrl": "/images/Gaizka Toquero.webp",
+      "imageHint": "retrato hombre"
+    },
+    {
+      "id": "eneko-reyes",
+      "description": "Retrato de Eneko Reyes.",
+      "imageUrl": "/images/Eneko Reyes.webp",
+      "imageHint": "retrato hombre"
+    },
+    {
+      "id": "iban-triviño",
+      "description": "Retrato de Iban Triviño, Entrenador de Porteros.",
+      "imageUrl": "/images/Iban Trivino.webp",
+      "imageHint": "retrato hombre"
+    },
+    {
+      "id": "pablo-diez",
+      "description": "Retrato de Pablo Diez, Preparador Físico.",
+      "imageUrl": "/images/Pablo Diez.webp",
+      "imageHint": "retrato hombre"
+    },
+    {
+      "id": "edu-roldan",
+      "description": "Retrato de Edu Roldán, Fisioterapeuta.",
+      "imageUrl": "/images/Edu Roldan.webp",
+      "imageHint": "retrato hombre"
+    },
+    {
+      "id": "program-1",
+      "description": "Niños entrenando fútbol.",
+      "imageUrl": "https://images.unsplash.com/photo-1527950285759-4d9f1b69c461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmb290YmFsbCUyMHRyYWluaW5nfGVufDB8fHx8MTc2MDk3MTQ4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "entrenamiento futbol"
+    },
+    {
+      "id": "program-2",
+      "description": "Un adolescente chutando un balón de fútbol.",
+      "imageUrl": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmb290YmFsbCUyMHBsYXllcnxlbnwwfHx8fDE3NjA5NzE0ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "jugador futbol"
+    },
+    {
+      "id": "program-3",
+      "description": "Sesión de entrenamiento de portero.",
+      "imageUrl": "https://images.unsplash.com/photo-1695190672861-a62f4de64c3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnb2Fsa2VlcGVyJTIwc2F2ZXxlbnwwfHx8fDE3NjEwMzE4NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "parada portero"
+    },
+    {
+      "id": "service-gym",
+      "description": "Interior de un gimnasio moderno con equipamiento.",
+      "imageUrl": "https://images.unsplash.com/photo-1710746904729-f3ad9f682bb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxnaW1uYXNpbyUyMGVxdWlwYW1pZW50b3xlbnwwfHx8fDE3NjMwMjYyMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gimnasio equipamiento"
+    },
+    {
+      "id": "service-nutrition",
+      "description": "Una selección de alimentos saludables como frutas y verduras.",
+      "imageUrl": "https://images.unsplash.com/photo-1547592180-85f173990554?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb21pZGElMjBzYWx1ZGFibGV8ZW58MHx8fHwxNzYzMDI2MjMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "comida saludable"
+    },
+    {
+      "id": "service-physiotherapy",
+      "description": "Un fisioterapeuta trabajando en la pierna de un atleta.",
+      "imageUrl": "/images/Fisioterapia.webp",
+      "imageHint": "fisioterapia atleta"
+    },
+    {
+      "id": "service-organizations",
+      "description": "Dos equipos de fútbol dándose la mano.",
+      "imageUrl": "/images/Organizaciones.webp",
+      "imageHint": "organización equipo"
+    },
+    {
+      "id": "sede-olabide",
+      "description": "Instalaciones de Olabide Ikastola.",
+      "imageUrl": "/images/Sede Olabide.webp",
+      "imageHint": "campo futbol"
+    },
+    {
+      "id": "sede-estadio",
+      "description": "Instalaciones de Fundación Estadio.",
+      "imageUrl": "/images/Sede Estadio.webp",
+      "imageHint": "instalaciones deportivas"
+    }
+  ]
+}
