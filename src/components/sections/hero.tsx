@@ -2,34 +2,33 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
 export default function HeroSection() {
-  // Se elimina 'videoId' ya que no se usa con la etiqueta <video>
+  // Se ha adaptado el componente para usar un iframe de YouTube
 
   return (
     <section className="relative h-[80vh] min-h-[500px] w-full overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full">
         {/*
-          *** INICIO: Reemplazo del iframe por la etiqueta <video> ***
-          - autoPlay, loop, muted: Esenciales para videos de fondo.
-          - playsInline: Necesario para la reproducción automática en iOS.
-          - object-cover: Asegura que el video cubra todo el contenedor.
+          *** INICIO: Reemplazo de <video> por <iframe> de YouTube ***
+          - Se utiliza la URL de embed de YouTube: https://www.youtube.com/embed/IVkd45lSuF8
+          - Parámetros clave para el efecto de fondo:
+            - autoplay=1: Inicia la reproducción automática.
+            - mute=1: Silencia el video (necesario para que 'autoplay' funcione en la mayoría de los navegadores).
+            - loop=1 y playlist=IVkd45lSuF8: Configura el video para que se repita en bucle.
+            - controls=0: Oculta los controles del reproductor.
+            - playsinline=1: Importante para la reproducción automática en dispositivos iOS.
+          - La clase CSS (min-w y min-h) asegura que el video cubra todo el contenedor, simulando 'object-cover'.
+          - pointer-events-none evita que el iframe interfiera con los clics en la capa superior.
         */}
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute top-1/2 left-1/2 w-full h-full min-w-[177.77vh] min-h-[100vh] transform -translate-x-1/2 -translate-y-1/2 object-cover"
-        >
-          {/* Asegúrate de que esta ruta '/hero-video.mp4' apunta a tu archivo de video 
-            en la carpeta 'public' y que tu video esté optimizado para la web.
-          */}
-          <source src="/videos/hero-video.mp4" type="video/mp4" />
-          {/* Se recomienda añadir un formato adicional (.webm) para mayor compatibilidad: */}
-          {/* <source src="/hero-video.webm" type="video/webm" /> */}
-          Tu navegador no soporta la etiqueta de video.
-        </video>
+        <iframe
+          src="https://www.youtube.com/embed/IVkd45lSuF8?autoplay=1&mute=1&loop=1&playlist=IVkd45lSuF8&controls=0&modestbranding=1&playsinline=1"
+          title="Toquero Sport Academy Background Video"
+          frameBorder="0"
+          allow="autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="absolute top-1/2 left-1/2 w-full h-full min-w-[177.77vh] min-h-[100vh] transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+        />
         {/*
-          *** FIN: Reemplazo del iframe por la etiqueta <video> ***
+          *** FIN: Reemplazo de <video> por <iframe> de YouTube ***
         */}
       </div>
       <div className="absolute inset-0 bg-black/60" />
