@@ -16,8 +16,13 @@ export default function HeroSection() {
             - loop=1 y playlist=IVkd45lSuF8: Configura el video para que se repita en bucle.
             - controls=0: Oculta los controles del reproductor.
             - playsinline=1: Importante para la reproducción automática en dispositivos iOS.
-          - La clase CSS (min-w y min-h) asegura que el video cubra todo el contenedor, simulando 'object-cover'.
-          - pointer-events-none evita que el iframe interfiera con los clics en la capa superior.
+          
+          *** CAMBIO CLAVE para Móviles: ***
+          - La clase se ha modificado para que en pantallas pequeñas (por defecto):
+            - `w-full h-full`: El iframe ocupe 100% del contenedor.
+            - `object-cover`: Simula 'object-cover' centrándolo.
+          - Las clases `min-w-[177.77vh] min-h-[100vh]` que fuerzan el tamaño se han movido a `lg:`
+            para que solo se apliquen en pantallas de escritorio, solucionando el desbordamiento en móvil.
         */}
         <iframe
           src="https://www.youtube.com/embed/IVkd45lSuF8?autoplay=1&mute=1&loop=1&playlist=IVkd45lSuF8&controls=0&modestbranding=1&playsinline=1"
@@ -25,7 +30,8 @@ export default function HeroSection() {
           frameBorder="0"
           allow="autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-          className="absolute top-1/2 left-1/2 w-full h-full min-w-[177.77vh] min-h-[100vh] transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+          className="absolute top-1/2 left-1/2 w-full h-full transform -translate-x-1/2 -translate-y-1/2 pointer-events-none 
+                   lg:min-w-[177.77vh] lg:min-h-[100vh]"
         />
         {/*
           *** FIN: Reemplazo de <video> por <iframe> de YouTube ***
