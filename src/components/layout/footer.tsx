@@ -30,6 +30,7 @@ export default function Footer() {
             <div className="grid gap-1">
               <h3 className="font-headline font-semibold">Enlaces</h3>
               <Link href="/galeria" className="text-muted-foreground transition-colors hover:text-foreground">Galería</Link>
+              <Link href="/noticias" className="text-muted-foreground transition-colors hover:text-foreground">Noticias</Link>
               <Link href="https://www.latiendademiclub.com/toquerosportacademy/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-foreground">Tienda</Link>
               <Link href="/contact" className="text-muted-foreground transition-colors hover:text-foreground">Contacto</Link>
             </div>
