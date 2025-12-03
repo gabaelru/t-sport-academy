@@ -18,7 +18,7 @@ export default function GaleriaPage() {
           </div>
           <div className="container mx-auto px-4 md:px-6 mt-12">
             <Script src="https://elfsightcdn.com/platform.js" data-elfsight-app-lazy />
-            <div className="elfsight-app-c365a470-fb7c-4a23-a5fd-dec068f42ae1" data-elfsight-app-lazy></div>
+            <div className="elfsight-app-beeef073-18c5-4e2e-b69d-a07b00e76861" data-elfsight-app-lazy></div>
           </div>
         </section>
       </main>
