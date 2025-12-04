@@ -1,0 +1,115 @@
+{
+  "Navigation": {
+    "MenuTitle": "Menú",
+    "AcademyVitoria": "Academia Vitoria",
+    "AcademyValencia": "Academia Valencia",
+    "Galeria": "Galería",
+    "Noticias": "Noticias",
+    "Contacto": "Contacto",
+    "ToqueroSportServicios": "Toquero Sport Servicios",
+    "Sedes": "Sedes",
+    "Staff": "Staff",
+    "Tienda": "Tienda"
+  },
+  "Hero": {
+    "Resumen": "Nos dedicamos a la formación integral, guiando la próxima generación de futbolistas mediante la dedicación, el respeto y la búsqueda continua de la mejora personal. Te invitamos a compartir la pasión y el conocimiento del juego en un espacio donde el disfrute es la meta principal de cada entrenamiento.",
+    "Boton": "Únete a la Academia"
+  },
+  "Footer": {
+    "Pregunta": "¿Todo listo para tu inscripción o tienes alguna duda? Haz clic aquí. ¡Te estamos esperando!",
+    "Boton": "Inscríbete Ahora",
+    "Titulo": "Enlaces",
+    "Galeria": "Galería",
+    "Noticias": "Noticias",
+    "Tienda": "Tienda",
+    "Contacto": "Contacto"
+  },
+  "Servicios": {
+    "TituloVitoria": "Nuestros Servicios en Vitoria",
+    "DescripcionVitoria": "Servicios complementarios para maximizar tu desarrollo como deportista en nuestra sede de Vitoria.",
+    "TituloValencia": "Nuestros Servicios en Valencia",
+    "DescripcionValencia": "Servicios complementarios para maximizar tu desarrollo como deportista en nuestra sede de Valencia.",
+    "service-gym": {
+      "titulo": "Gimnasio",
+      "descripcion": "Accede a nuestras instalaciones de vanguardia para mejorar tu fuerza, agilidad y resistencia. Planes de entrenamiento personalizados disponibles."
+    },
+    "service-nutrition": {
+      "titulo": "Nutrición",
+      "descripcion": "Nuestros nutricionistas deportivos te ayudarán a optimizar tu dieta para alcanzar el máximo rendimiento y una recuperación más rápida."
+    },
+    "service-physiotherapy": {
+      "titulo": "Fisioterapia",
+      "descripcion": "Servicios de fisioterapia especializados en la prevención y tratamiento de lesiones deportivas para mantenerte en el campo."
+    },
+    "service-organizations": {
+      "titulo": "Consultoría clubes",
+      "descripcion": "Impulsamos el desarrollo de personas con servicios personalizados para organizaciones y clubes."
+    },
+    "Boton": "Contratar"    
+  },
+  "Sedes": {
+    "TituloSedes": "Nuestras Sedes",
+    "SubtituloSedes": "Contamos con dos sedes en Vitoria. Hemos cuidado la selección de instalaciones para asegurar un entorno de entrenamiento de alta calidad.",
+    "InscribeteBoton": "Inscríbete",
+    "sede-olabide": {
+      "titulo": "Olabide Ikastola",
+      "descripcion": "Un completo programa de perfeccionamiento de capacidades futbolísticas para todos los niveles, en unas instalaciones de primer nivel.",
+      "detalles": [
+        "Ubicación: Olabide Ikastola (Campo de Fútbol 11)",
+        "Podrá asistir el alumnado de la Ikastola Olabide, así como de otros centros educativos y entidades deportivas.",
+        "Horario: Lunes a Jueves, 18:00 - 19:15",
+        "Edades: 2007-2019 (consultar grupos)",
+        "Sesiones: Existe la flexibilidad de elegir entre una, dos o tres sesiones a la semana",
+        "Inicio: 3 de Noviembre de 2025",
+        "Uso obligatorio de la equipación oficial"
+      ]
+    },
+    "sede-estadio": {
+      "titulo": "Fundación Estadio",
+      "descripcion": "Un complejo deportivo completo con múltiples campos y equipamiento moderno para un entrenamiento integral.",
+      "detalles": [
+        "Ubicación: Fundación Estadio",
+        "Acceso: Solo para abonados de la Fundación Estadio",
+        "Jueves (16:30-17:30): 2012-2013",
+        "Lunes y Miércoles (17:45-18:45): 2014-2015",
+        "Sesiones: Existe la flexibilidad de elegir entre una, dos o tres sesiones a la semana",
+        "Inicio: 3 de Noviembre de 2025",
+        "Uso obligatorio de la equipación oficial"
+      ]
+    }
+  },
+  "Coaches": {
+    "Titulo": "Conoce a Nuestro Staff",
+    "Subtitulo": "Un equipo profesional dedicado y comprometido con tu crecimiento deportivo y personal.",
+    "gaizka-toquero": {
+      "role": "Director",
+      "bio": "Ex-estrella de La Liga con el Athletic de Bilbao, Gaizka aporta años de experiencia en la élite y una pasión por desarrollar jóvenes talentos."
+    },
+    "eneko-reyes": {
+      "role": "Director Técnico",
+      "bio": "Como Director Técnico, Eneko supervisa la metodología de entrenamiento y el desarrollo futbolístico de todas las categorías de la academia."
+    },
+    "iban-triviño": {
+      "role": "Entrenador de Porteros",
+      "bio": "Experto en el entrenamiento específico de porteros, Iban ayuda a nuestros guardametas a alcanzar su máximo potencial."
+    },
+    "pablo-diez": {
+      "role": "Entrenador",
+      "bio": "Pablo se especializa en el desarrollo técnico-táctico individual y colectivo de nuestros jugadores, ayudándolos a alcanzar su máximo potencial en el campo."
+    },
+    "edu-roldan": {
+      "role": "Fisioterapeuta",
+      "bio": "Especializado en lesiones deportivas, Edu ayuda a nuestros jugadores a recuperarse y prevenir futuras lesiones, asegurando su máximo rendimiento en el campo."
+    }
+  },
+  "Galeria": {
+    "Titulo": "Galería",
+    "Descripcion": "Sigue nuestros momentos en Instagram."
+  },
+  "Contacto": {
+    "Titulo": "Ponte en Contacto",
+    "Descripcion": "¿Todo listo para empezar? Contáctanos y da el primer paso.",
+    "Telefono": "Teléfono",
+    "Email": "Correo Electrónico"
+  }
+}

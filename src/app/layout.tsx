@@ -1,6 +1,8 @@
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
 import './globals.css';
-import {Toaster} from '@/components/ui/toaster';
+import { Toaster } from '@/components/ui/toaster';
+// 1. Importar el componente Provider que creamos
+import I18nProvider from '@/components/I18nProvider'; 
 
 export const metadata: Metadata = {
   title: 'Toquero Sport Academy',
@@ -14,6 +16,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    // NOTA: El atributo lang="es" aquí es estático.
+    // Para que cambie dinámicamente con el idioma, necesitarías usar el hook
+    // 'useTranslation' en un componente cliente que es más complejo
+    // en RootLayout. Por ahora, lo dejaremos estático.
     <html lang="es" className="dark">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +34,10 @@ export default function RootLayout({
         />
       </head>
       <body className="font-body antialiased bg-background text-foreground">
-        {children}
+        {/* 2. Envolver el contenido (children) con el I18nProvider */}
+        <I18nProvider>
+          {children}
+        </I18nProvider>
         <Toaster />
       </body>
     </html>

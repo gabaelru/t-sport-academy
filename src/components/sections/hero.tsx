@@ -1,7 +1,13 @@
+"use client";
+
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+import { useTranslation } from 'react-i18next';
+
 
 export default function HeroSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="container mx-auto px-4 md:px-6 py-12 lg:py-20 min-h-[70vh] flex items-center">
       
@@ -13,11 +19,11 @@ export default function HeroSection() {
             Toquero Sport Academy
           </h1>
           <p className="mx-auto lg:mx-0 mt-6 max-w-3xl text-lg text-gray-600 dark:text-gray-300 md:text-xl">
-            Nos dedicamos a la formación integral, guiando la próxima generación de futbolistas mediante la dedicación, el respeto y la búsqueda continua de la mejora personal. Te invitamos a compartir la pasión y el conocimiento del juego en un espacio donde el disfrute es la meta principal de cada entrenamiento.
+            {t('Hero.Resumen')}
           </p>
           <div className="mt-10 flex items-center justify-center lg:justify-start gap-4">
             <Button asChild size="lg" className="font-bold">
-              <Link href="https://app.360Player.com/join/ZIZZH8" target="_blank" rel="noopener noreferrer">Únete a la Academia</Link>
+              <Link href="https://app.360Player.com/join/ZIZZH8" target="_blank" rel="noopener noreferrer">{t('Hero.Boton')}</Link>
             </Button>
           </div>
         </div>

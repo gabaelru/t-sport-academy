@@ -1,8 +1,13 @@
+"use client";
+
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 import ServicesValenciaSection from '@/components/sections/servicesValencia';
+import { useTranslation } from 'react-i18next';
 
 export default function ServicesValenciaPage() {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -10,10 +15,10 @@ export default function ServicesValenciaPage() {
         <section className="w-full py-16 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6 text-center">
             <h1 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">
-              Nuestros Servicios en Valencia
+              {t('Servicios.TituloValencia')}
             </h1>
             <p className="mt-4 max-w-[700px] mx-auto text-muted-foreground md:text-xl">
-            Servicios complementarios para maximizar tu desarrollo como deportista en nuestra sede de Valencia.
+            {t('Servicios.DescripcionValencia')}
             </p>
           </div>
           <div className="container mx-auto px-4 md:px-6 mt-12">

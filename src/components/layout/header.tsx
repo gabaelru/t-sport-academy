@@ -19,28 +19,33 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+// --- i18n Importaciones ---
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from '@/components/LanguageSwitcher'; 
+// -------------------------
 
-const navLinks = [
+// Función que genera los enlaces usando la función de traducción 't'
+const getNavLinks = (t: (key: string) => string) => [
     {
-    label: 'Academia Vitoria',
+    label: t('Navigation.AcademyVitoria'), // CLAVE CORREGIDA
     isDropdown: true,
     items: [
-      { href: '/services-vitoria', label: 'Toquero Sport Servicios' },
-      { href: '/sedes', label: 'Sedes' },
-      { href: '/staff', label: 'Staff' },
-      { href: 'https://www.latiendademiclub.com/toquerosportacademy/', label: 'Tienda', isExternal: true },
+      { href: '/services-vitoria', label: t('Navigation.ToqueroSportServicios') }, // CLAVE CORREGIDA
+      { href: '/sedes', label: t('Navigation.Sedes') },      // CLAVE CORREGIDA
+      { href: '/staff', label: t('Navigation.Staff') },      // CLAVE CORREGIDA
+      { href: 'https://www.latiendademiclub.com/toquerosportacademy/', label: t('Navigation.Tienda'), isExternal: true }, // CLAVE CORREGIDA
     ],
   },
   {
-    label: 'Academia Valencia',
+    label: t('Navigation.AcademyValencia'), // CLAVE CORREGIDA
     isDropdown: true,
     items: [
-      { href: '/services-valencia', label: 'Toquero Sport Servicios' },
+      { href: '/services-valencia', label: t('Navigation.ToqueroSportServicios') }, // CLAVE CORREGIDA
     ],
   },
-  { href: '/galeria', label: 'Galería' },
-  { href: '/noticias', label: 'Noticias' },
-  { href: '/contact', label: 'Contacto' },
+  { href: '/galeria', label: t('Navigation.Galeria') }, // CLAVE CORREGIDA
+  { href: '/noticias', label: t('Navigation.Noticias') }, // CLAVE CORREGIDA
+  { href: '/contact', label: t('Navigation.Contacto') }, // CLAVE CORREGIDA
 ];
 
 const NavLink = ({ href, label, isExternal, onClick, className }: { href: string; label: string; isExternal?: boolean; onClick?: () => void; className?: string; }) => {
@@ -95,6 +100,12 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
 
+  // --- i18n Hook ---
+  // 1. ELIMINAMOS 'Navigation' para usar el defaultNS ('translation')
+  const { t } = useTranslation(); 
+  const navLinks = getNavLinks(t);
+  // -------------------
+
   useEffect(() => {
     setIsClient(true);
     const handleScroll = () => {
@@ -122,7 +133,8 @@ export default function Header() {
         </Link>
         
         {isClient && (
-          <>
+          // Contenedor flexible para la navegación y el selector de idioma
+          <div className='flex items-center gap-2'> 
             {/* Desktop Navigation */}
             <nav className="hidden items-center gap-2 md:flex">
               {navLinks.map((link) => 
@@ -132,18 +144,21 @@ export default function Header() {
               )}
             </nav>
 
+            {/* Language Switcher */}
+            <LanguageSwitcher />
+
             {/* Mobile Navigation */}
             <div className="md:hidden">
               <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
                 <SheetTrigger asChild>
                   <Button variant="ghost" size="icon">
                     <Menu className="h-6 w-6" />
-                    <span className="sr-only">Abrir menú</span>
+                    <span className="sr-only">{t('Navigation.OpenMenu')}</span> {/* CLAVE CORREGIDA */}
                   </Button>
                 </SheetTrigger>
                 <SheetContent side="right" className="w-[300px] bg-background p-0">
                     <SheetHeader className="p-6 border-b">
-                       <SheetTitle className="text-lg font-semibold text-left">Menú</SheetTitle>
+                       <SheetTitle className="text-lg font-semibold text-left">{t('Navigation.MenuTitle')}</SheetTitle> {/* CLAVE CORREGIDA */}
                     </SheetHeader>
                   <div className="flex h-full flex-col pt-0 p-6">
                     <nav className="flex flex-col items-start gap-2">
@@ -157,7 +172,7 @@ export default function Header() {
                 </SheetContent>
               </Sheet>
             </div>
-          </>
+          </div>
         )}
       </div>
     </header>

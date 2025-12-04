@@ -1,0 +1,115 @@
+{
+  "Navigation": {
+    "MenuTitle": "Menu",
+    "AcademyVitoria": "Vitoria Academy",
+    "AcademyValencia": "Valencia Academy",
+    "Galeria": "Gallery",
+    "Noticias": "News",
+    "Contacto": "Contact",
+    "ToqueroSportServicios": "Toquero Sport Services",
+    "Sedes": "Headquarters",
+    "Staff": "Staff",
+    "Tienda": "Store"
+  },
+  "Hero": {
+    "Resumen": "We are dedicated to comprehensive training, guiding the next generation of football players through dedication, respect, and the continuous pursuit of personal improvement. We invite you to share the passion and knowledge of the game in a space where enjoyment is the main goal of every training session.",
+    "Boton": "Join the Academy"
+  },
+  "Footer": {
+    "Pregunta": "Ready for your registration or do you have any questions? Click here. We are waiting for you!",
+    "Boton": "Register Now",
+    "Titulo": "Links",
+    "Galeria": "Gallery",
+    "Noticias": "News",
+    "Tienda": "Shop",
+    "Contacto": "Contact"
+  },
+  "Servicios": {
+    "TituloVitoria": "Our Services in Vitoria",
+    "DescripcionVitoria": "Complementary services to maximize your development as an athlete at our Vitoria headquarters.",
+    "TituloValencia": "Our Services in Valencia",
+    "DescripcionValencia": "Complementary services to maximize your development as an athlete at our Valencia headquarters.",
+    "service-gym": {
+      "titulo": "Gym",
+      "descripcion": "Access our state-of-the-art facilities to improve your strength, agility, and endurance. Personalized training plans are available."
+    },
+    "service-nutrition": {
+      "titulo": "Nutrition",
+      "descripcion": "Our sports nutritionists will help you optimize your diet to achieve peak performance and faster recovery."
+    },
+    "service-physiotherapy": {
+      "titulo": "Physiotherapy",
+      "descripcion": "Specialized physiotherapy services for the prevention and treatment of sports injuries to keep you on the field."
+    },
+    "service-organizations": {
+      "titulo": "Club consulting",
+      "descripcion": "We promote the development of people with personalized services for organizations and clubs."
+    },
+    "Boton": "Hire"    
+  },
+  "Sedes": {
+    "TituloSedes": "Our Headquarters",
+    "SubtituloSedes": "We have two locations in Vitoria. We have carefully selected our facilities to ensure a high-quality training environment.",
+    "InscribeteBoton": "Sign up",
+    "sede-olabide": {
+      "titulo": "Olabide Ikastola",
+      "descripcion": "A comprehensive football skills development program for all levels, in top-notch facilities.",
+      "detalles": [
+        "Location: Olabide Ikastola (11-a-side Football Field)",
+        "Students from the Olabide Ikastola, as well as from other educational centers and sports entities, will be able to attend.",
+        "HSchedule: Monday to Thursday, 6:00 PM - 7:15 PM",
+        "Ages: 2007-2019 (see groups)",
+        "Sessions: There is flexibility to choose between one, two, or three sessions per week.",
+        "Start: November 3, 2025",
+        "Mandatory use of official kit"
+      ]
+    },
+    "sede-estadio": {
+      "titulo": "Fundación Estadio",
+      "descripcion": "A complete sports complex with multiple fields and modern equipment for comprehensive training.",
+      "detalles": [
+        "Location: Fundación Estadio",
+        "Access: Only for members of the Fundación Estadio",
+        "Thursday (4:30-5:30 PM): 2012-2013",
+        "Mondays and Wednesdays (5:45-6:45 PM): 2014-2015",
+        "Sessions: There is flexibility to choose between one, two, or three sessions per week.",
+        "Start: November 3, 2025",
+        "Mandatory use of official kit"
+      ]
+    }
+  },
+  "Coaches": {
+    "Titulo": "Meet Our Staff",
+    "Subtitulo": "A dedicated and professional team committed to your sports and personal growth.",
+    "gaizka-toquero": {
+      "role": "Director",
+      "bio": "Former La Liga star with Athletic de Bilbao, Gaizka brings years of elite experience and a passion for developing young talent."
+    },
+    "eneko-reyes": {
+      "role": "Technical Director",
+      "bio": "As Technical Director, Eneko oversees the training methodology and football development of all academy categories."
+    },
+    "iban-triviño": {
+      "role": "Goalkeeper Coach",
+      "bio": "An expert in specific goalkeeper training, Iban helps our keepers reach their maximum potential."
+    },
+    "pablo-diez": {
+      "role": "Coach",
+      "bio": "Pablo specializes in the individual and collective technical-tactical development of our players, helping them reach their maximum potential on the field."
+    },
+    "edu-roldan": {
+      "role": "Physiotherapist",
+      "bio": "Specializing in sports injuries, Edu helps our players recover and prevent future injuries, ensuring their maximum performance on the field."
+    }
+  },
+  "Galeria": {
+    "Titulo": "Gallery",
+    "Descripcion": "Follow our moments on Instagram."
+  },
+  "Contacto": {
+    "Titulo": "Get in touch",
+    "Descripcion": "Ready to get started? Contact us and take the first step.",
+    "Telefono": "Phone",
+    "Email": "Email"
+  }
+}

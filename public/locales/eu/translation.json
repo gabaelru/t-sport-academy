@@ -1,0 +1,115 @@
+{
+  "Navigation": {
+    "MenuTitle": "Menua",
+    "AcademyVitoria": "Gasteizko Akademia",
+    "AcademyValencia": "Valentziako Akademia",
+    "Galeria": "Galeria",
+    "Noticias": "Albisteak",
+    "Contacto": "Kontaktua",
+    "ToqueroSportServicios": "Toquero Kirol Zerbitzuak",
+    "Sedes": "Egoitzak",
+    "Staff": "Langileak",
+    "Tienda": "Denda"
+  },
+  "Hero": {
+    "Resumen": "Prestakuntza integralari eskaintzen gara, etorkizuneko futbolarien belaunaldia dedikazioaren, errespetuaren eta hobekuntza pertsonalaren etengabeko bilaketaren bidez gidatuz. Jokoarekiko pasioa eta ezagutza partekatzera gonbidatzen zaitugu, entrenamendu guztietan gozamena helburu nagusia den gune batean.",
+    "Boton": "Akademiara elkartu"
+  },
+  "Footer": {
+    "Pregunta": "Zure izen-ematearako prest al zaude edo zalantzaren bat duzu? Egin klik hemen. Zure zain gaude!",
+    "Boton": "Eman izena orain",
+    "Titulo": "Estekak",
+    "Galeria": "Galeria",
+    "Noticias": "Albisteak",
+    "Tienda": "Denda",
+    "Contacto": "Kontaktua"
+  },
+  "Servicios": {
+    "TituloVitoria": "Gure Zerbitzuak Gasteizen",
+    "DescripcionVitoria": "Kirolari gisa zure garapena maximizatzeko zerbitzu osagarriak gure Vitoriako egoitzan.",
+    "TituloValencia": "Gure Zerbitzuak Valentzian",
+    "DescripcionValencia": "Gure Valentziako egoitzan atleta gisa zure garapena maximizatzeko zerbitzu osagarriak.",
+    "service-gym": {
+      "titulo": "Gimnasioa",
+      "descripcion": "Sar zaitez gure punta-puntako instalazioetara zure indarra, bizkortasuna eta erresistentzia hobetzeko. Entrenamendu plan pertsonalizatuak eskuragarri daude."
+    },
+    "service-nutrition": {
+      "titulo": "Elikadura",
+      "descripcion": "Gure kirol nutrizionistek zure dieta optimizatzen lagunduko dizute errendimendu gorena eta errekuperazio azkarragoa lortzeko."
+    },
+    "service-physiotherapy": {
+      "titulo": "Fisioterapia",
+      "descripcion": "Kirol lesioen prebentzio eta tratamendurako fisioterapia zerbitzu espezializatuak, zelaian jarrai dezazun."
+    },
+    "service-organizations": {
+      "titulo": "Klubaren aholkularitza",
+      "descripcion": "Pertsonen garapena sustatzen dugu erakunde eta klubentzako zerbitzu pertsonalizatuekin."
+    },
+    "Boton": "Kontratatu"    
+  },
+  "Sedes": {
+    "TituloSedes": "Gure Egoitzak",
+    "SubtituloSedes": "Bi kokaleku ditugu Vitorian. Gure instalazioak arretaz hautatu ditugu kalitate handiko prestakuntza-ingurune bat bermatzeko.",
+    "InscribeteBoton": "Izena eman",
+    "sede-olabide": {
+      "titulo": "Olabide Ikastola",
+      "descripcion": "Maila guztietarako futbol trebetasunak garatzeko programa integrala, instalazio bikainetan.",
+      "detalles": [
+        "Kokapena: Olabide Ikastola (11ko futbol zelaia)",
+        "Olabide Ikastolako ikasleek, baita beste hezkuntza-zentro eta kirol-erakunde batzuetakoek ere, bertaratu ahal izango dira.",
+        "Ordutegia: Astelehenetik ostegunera, 18:00 - 19:15",
+        "Adinak: 2007-2019 (ikusi taldeak)",
+        "Saioak: Astean saio bat, bi edo hiru aukeratzeko malgutasuna dago.",
+        "Hasiera: 2025eko azaroaren 3a",
+        "Jantzi ofizialaren erabilera derrigorrezkoa"
+      ]
+    },
+    "sede-estadio": {
+      "titulo": "Estadio Fundazioa",
+      "descripcion": "Kirol-konplexu osoa, hainbat zelai eta entrenamendu integralerako ekipamendu modernoekin.",
+      "detalles": [
+        "Lekua: Estadio Fundazioa",
+        "Sarbidea: Estadio Fundazioko kideentzat bakarrik",
+        "Osteguna (16:30-17:30): 2012-2013",
+        "Astelehenak eta asteazkenak (17:45-18:45): 2014-2015",
+        "Saioak: Astean saio bat, bi edo hiru aukeratzeko malgutasuna dago.",
+        "Hasiera: 2025eko azaroaren 3a",
+        "Jantzi ofizialaren erabilera derrigorrezkoa"
+      ]
+    }
+  },
+  "Coaches": {
+    "Titulo": "Ezagutu gure langileak",
+    "Subtitulo": "Zure kirol eta hazkunde pertsonalerako dedikatua eta konprometitua den talde profesional bat.",
+    "gaizka-toquero": {
+      "role": "Zuzendaria",
+      "bio": "Gaizkak Athletic Bilbaoko La Ligako izar ohia izanik, urteetako esperientzia du goi mailan eta talentu gaztea garatzeko grina du."
+    },
+    "eneko-reyes": {
+      "role": "Zuzendari Teknikoa",
+      "bio": "Zuzendari Tekniko gisa, Enekok akademiako kategoria guztien entrenamendu metodologia eta futbol garapena gainbegiratzen ditu."
+    },
+    "iban-triviño": {
+      "role": "Atezainen entrenatzailea",
+      "bio": "Atezainen entrenamendu espezifikoan aditua den Ibanek gure atezainei beren potentzial osoa lortzen laguntzen die."
+    },
+    "pablo-diez": {
+      "role": "Entrenatzailea",
+      "bio": "Pablok gure jokalarien garapen tekniko-taktiko indibiduala eta kolektiboa lantzen du, zelaian ahalik eta potentzial handiena lortzen lagunduz."
+    },
+    "edu-roldan": {
+      "role": "Fisioterapeuta",
+      "bio": "Kirol lesioetan espezializatuta, Eduk gure jokalariei suspertzen eta etorkizuneko lesioak saihesten laguntzen die, zelaian duten errendimendu gorena bermatuz."
+    }
+  },
+  "Galeria": {
+    "Titulo": "Galeria",
+    "Descripcion": "Jarraitu gure uneak Instagramen."
+  },
+  "Contacto": {
+    "Titulo": "Jarri harremanetan",
+    "Descripcion": "Prest hasteko? Jarri gurekin harremanetan eta eman lehen urratsa.",
+    "Telefono": "Telefonoa",
+    "Email": "Posta elektronikoa"
+  }
+}

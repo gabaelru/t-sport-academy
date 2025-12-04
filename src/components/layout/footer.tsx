@@ -1,9 +1,14 @@
+"use client";
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { Twitter, Instagram, Facebook } from 'lucide-react';
 import { Button } from '../ui/button';
+import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer className="border-t border-border bg-background">
       <div className="container mx-auto px-4 py-12 md:px-6">
@@ -17,22 +22,22 @@ export default function Footer() {
                   </span>
               </Link>
               <p className="mt-4 text-muted-foreground">
-              ¿Todo listo para tu inscripción o tienes alguna duda? Haz clic aquí. ¡Te estamos esperando!
+              {t('Footer.Pregunta')}
               </p>
             </div>
              <Button asChild className="w-full sm:w-auto font-bold mt-6" size="lg">
               <Link href="https://app.360Player.com/join/ZIZZH8" target="_blank" rel="noopener noreferrer">
-                Inscríbete Ahora
+                {t('Footer.Boton')}
               </Link>
             </Button>
           </div>
           <div className="grid grid-cols-1 gap-8 text-sm md:col-span-6 md:col-start-8 md:grid-cols-2">
             <div className="grid gap-1">
-              <h3 className="font-headline font-semibold">Enlaces</h3>
-              <Link href="/galeria" className="text-muted-foreground transition-colors hover:text-foreground">Galería</Link>
-              <Link href="/noticias" className="text-muted-foreground transition-colors hover:text-foreground">Noticias</Link>
-              <Link href="https://www.latiendademiclub.com/toquerosportacademy/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-foreground">Tienda</Link>
-              <Link href="/contact" className="text-muted-foreground transition-colors hover:text-foreground">Contacto</Link>
+              <h3 className="font-headline font-semibold">{t('Footer.Titulo')}</h3>
+              <Link href="/galeria" className="text-muted-foreground transition-colors hover:text-foreground">{t('Footer.Galeria')}</Link>
+              <Link href="/noticias" className="text-muted-foreground transition-colors hover:text-foreground">{t('Footer.Noticias')}</Link>
+              <Link href="https://www.latiendademiclub.com/toquerosportacademy/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground transition-colors hover:text-foreground">{t('Footer.Tienda')}</Link>
+              <Link href="/contact" className="text-muted-foreground transition-colors hover:text-foreground">{t('Footer.Contacto')}</Link>
             </div>
           </div>
         </div>
