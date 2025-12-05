@@ -19,6 +19,12 @@
       "imageHint": "retrato hombre"
     },
     {
+      "id": "aner-aldave",
+      "description": "Retrato de Aner Aldave.",
+      "imageUrl": "/images/Aner Aldave.webp",
+      "imageHint": "retrato hombre"
+    },
+    {
       "id": "iban-triviño",
       "description": "Retrato de Iban Triviño, Entrenador de Porteros.",
       "imageUrl": "/images/Iban Trivino.webp",

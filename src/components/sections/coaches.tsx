@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next';
 const coaches = [
   { id: 'gaizka-toquero', name: 'Gaizka Toquero' },
   { id: 'eneko-reyes', name: 'Eneko Reyes' },
+  { id: 'aner-aldave', name: 'Aner Aldave' },
   { id: 'iban-triviño', name: 'Iban Triviño' },
   { id: 'pablo-diez', name: 'Pablo Diez' },
   { id: 'edu-roldan', name: 'Edu Roldán' },
