@@ -6,7 +6,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { useTranslation } from 'react-i18next';
 
 const coaches = [
-  { id: 'gaizka-toquero', name: 'Gaizka Toquero' },
+  { id: 'gaizka-toquero-valencia', name: 'Gaizka Toquero' },
 ];
 
 export default function CoachesValenciaSection() {
@@ -49,8 +49,22 @@ export default function CoachesValenciaSection() {
                     </div>
                   )}
                   <div className="pt-4">
-                    <CardTitle className="font-headline text-xl">{coach.name}</CardTitle>
-                    <p className="text-sm text-primary">{t(roleKey)}</p>
+                      <CardTitle 
+                          className="
+                              font-headline 
+                              text-xl 
+                              bg-clip-text 
+                              text-transparent 
+                              bg-gradient-to-r 
+                              from-[#6ed1db] 
+                              via-[#90adc1] 
+                              via-[#b08aa3] 
+                              to-[#ce688b]
+                          "
+                      >
+                          {coach.name}
+                      </CardTitle>
+                      <p className="text-sm text-primary">{t(roleKey)}</p>
                   </div>
                 </CardHeader>
                 <CardContent>
