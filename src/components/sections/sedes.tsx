@@ -12,12 +12,12 @@ const sedesData = [
   {
     id: 'sede-olabide',
     mapsLink: 'https://maps.app.goo.gl/vLgNvTqJ2Zz5X4hQ6',
-    registrationLink: 'https://app.360player.com/registration/toquerosport/81169601-671a-443f-a501-9e685962c409'
+    registrationLink: 'https://app.360player.com/registration/toquerosport/334a93c7-ba26-47e3-b5cc-5a50b4efb0d4'
   },
   {
     id: 'sede-estadio',
     mapsLink: 'https://maps.app.goo.gl/2F8sN7RjKkY6f1t8A',
-    registrationLink: 'https://app.360player.com/registration/toquerosport/66da72ae-fbcd-469c-8359-433a41e8fc9a'
+    registrationLink: 'https://app.360player.com/registration/toquerosport/488f14f0-ed75-4926-af50-094a26bc4076'
   },
 ];
 
