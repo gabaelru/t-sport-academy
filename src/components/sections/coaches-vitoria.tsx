@@ -6,7 +6,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { useTranslation } from 'react-i18next';
 
 const coaches = [
-  { id: 'gaizka-toquero', name: 'Gaizka Toquero' },
+  { id: 'gaizka-toquero-vitoria', name: 'Gaizka Toquero' },
   { id: 'eneko-reyes', name: 'Eneko Reyes' },
   { id: 'aner-aldave', name: 'Aner Aldave' },
   { id: 'iban-triviño', name: 'Iban Triviño' },
@@ -14,7 +14,7 @@ const coaches = [
   { id: 'edu-roldan', name: 'Edu Roldán' },
 ];
 
-export default function CoachesSection() {
+export default function CoachesVitoriaSection() {
   const { t } = useTranslation();
 
   const titleKey = 'Coaches.Titulo';

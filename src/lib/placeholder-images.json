@@ -1,64 +1,46 @@
 {
   "placeholderImages": [
     {
-      "id": "hero-background",
-      "description": "Una toma amplia de un estadio de fútbol al atardecer.",
-      "imageUrl": "https://images.unsplash.com/photo-1506626637585-0802df0d0269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmb290YmFsbCUyMHN0YWRpdW18ZW58MHx8fHwxNzYwOTUzMzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "estadio futbol"
+      "id": "gaizka-toquero-vitoria",
+      "description": "Retrato de Gaizka Toquero.",
+      "imageUrl": "/images/staff/Gaizka Toquero Vitoria.webp",
+      "imageHint": "retrato hombre"
     },
     {
-      "id": "gaizka-toquero",
+      "id": "gaizka-toquero-valencia",
       "description": "Retrato de Gaizka Toquero.",
-      "imageUrl": "/images/Gaizka Toquero.webp",
+      "imageUrl": "/images/staff/Gaizka Toquero Valencia.webp",
       "imageHint": "retrato hombre"
     },
     {
       "id": "eneko-reyes",
       "description": "Retrato de Eneko Reyes.",
-      "imageUrl": "/images/Eneko Reyes.webp",
+      "imageUrl": "/images/staff/Eneko Reyes.webp",
       "imageHint": "retrato hombre"
     },
     {
       "id": "aner-aldave",
       "description": "Retrato de Aner Aldave.",
-      "imageUrl": "/images/Aner Aldave.webp",
+      "imageUrl": "/images/staff/Aner Aldave.webp",
       "imageHint": "retrato hombre"
     },
     {
       "id": "iban-triviño",
       "description": "Retrato de Iban Triviño, Entrenador de Porteros.",
-      "imageUrl": "/images/Iban Trivino.webp",
+      "imageUrl": "/images/staff/Iban Trivino.webp",
       "imageHint": "retrato hombre"
     },
     {
       "id": "pablo-diez",
       "description": "Retrato de Pablo Diez, Preparador Físico.",
-      "imageUrl": "/images/Pablo Diez.webp",
+      "imageUrl": "/images/staff/Pablo Diez.webp",
       "imageHint": "retrato hombre"
     },
     {
       "id": "edu-roldan",
       "description": "Retrato de Edu Roldán, Fisioterapeuta.",
-      "imageUrl": "/images/Edu Roldan.webp",
+      "imageUrl": "/images/staff/Edu Roldan.webp",
       "imageHint": "retrato hombre"
-    },
-    {
-      "id": "program-1",
-      "description": "Niños entrenando fútbol.",
-      "imageUrl": "https://images.unsplash.com/photo-1527950285759-4d9f1b69c461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmb290YmFsbCUyMHRyYWluaW5nfGVufDB8fHx8MTc2MDk3MTQ4OHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "entrenamiento futbol"
-    },
-    {
-      "id": "program-2",
-      "description": "Un adolescente chutando un balón de fútbol.",
-      "imageUrl": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmb290YmFsbCUyMHBsYXllcnxlbnwwfHx8fDE3NjA5NzE0ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "jugador futbol"
-    },
-    {
-      "id": "program-3",
-      "description": "Sesión de entrenamiento de portero.",
-      "imageUrl": "https://images.unsplash.com/photo-1695190672861-a62f4de64c3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnb2Fsa2VlcGVyJTIwc2F2ZXxlbnwwfHx8fDE3NjEwMzE4NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "parada portero"
     },
     {
       "id": "service-gym",

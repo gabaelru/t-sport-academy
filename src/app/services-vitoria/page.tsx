@@ -5,7 +5,7 @@ import Footer from '@/components/layout/footer';
 import ServicesVitoriaSection from '@/components/sections/servicesVitoria';
 import { useTranslation } from 'react-i18next';
 
-export default function ServicesPage() {
+export default function ServicesVitoriaPage() {
   const { t } = useTranslation();
 
   return (
