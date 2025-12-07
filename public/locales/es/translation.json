@@ -95,7 +95,7 @@
     },
     "aner-aldave": {
       "role": "Analista Táctico",
-      "bio": "Aner Aldave, Analista de Vídeo y Táctico que utiliza la imagen para ir más allá del estancamiento. Ofrece un análisis tridimensional (colectivo, individual y zonal) con tecnología avanzada, proporcionando el conocimiento preciso necesario para llevar el rendimiento al siguiente nivel."
+      "bio": "Aner Aldave, Analista Táctico de video, tanto individual como colectivo. Utilizando secuencias de los partidos para identificar patrones en el juego, tanto fortalezas como debilidades, y sugiriendo ajustes tácticos. Ofrece diferentes tipos de análisis (Colectivo propio o rival, Zonal, ABP e individual) con tecnología avanzada, proporcionando el conocimiento necesario para llevar el rendimiento al siguiente nivel."
     },
     "iban-triviño": {
       "role": "Entrenador de Porteros",
@@ -108,6 +108,22 @@
     "edu-roldan": {
       "role": "Fisioterapeuta",
       "bio": "Especializado en lesiones deportivas, Edu ayuda a nuestros jugadores a recuperarse y prevenir futuras lesiones, asegurando su máximo rendimiento en el campo."
+    },
+    "david-soriano": {
+      "role": "Director Área Logística Desarrollo de Negocios",
+      "bio": "Responsable de optimizar la operativa diaria y logística de la academia, mientras impulsa el crecimiento y la sostenibilidad económica a través del desarrollo de nuevos programas y acuerdos comerciales."
+    },
+    "carlos-ballesteros": {
+      "role": "Agente de Jugadores Director Internacional",
+      "bio": "Responsable de establecer la red de contactos internacionales de la academia. Se enfoca en identificar y gestionar oportunidades de desarrollo global y scouting para los jugadores con mayor proyección."
+    },
+    "adrian-martinez": {
+      "role": "Agente de Jugadores Director Deportivo",
+      "bio": "Responsable del área deportiva y metodológica. Lidera al staff técnico y utiliza su experiencia como agente para identificar, proyectar y asesorar a los jugadores con potencial de futuro."
+    },
+    "cristian-de-luis": {
+      "role": "Entrenador Principal Director de Metodología",
+      "bio": "Líder técnico de la academia. Diseña, implementa y supervisa la metodología de entrenamiento, asegurando la unidad en la enseñanza y la correcta progresión de todos los jugadores."
     }
   },
   "Galeria": {

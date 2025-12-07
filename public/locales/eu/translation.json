@@ -95,7 +95,7 @@
     },
     "aner-aldave": {
       "role": "Analista Taktikoa",
-      "bio": "Aner Aldave Bideo eta Taktika Analistak bideoa erabiltzen du geldiunea gainditzeko. Hiru dimentsioko analisia (kolektiboa, banakakoa eta zonala) eskaintzen du teknologia aurreratuarekin, errendimendua hurrengo mailara eramateko beharrezko informazio zehatza emanez."
+      "bio": "Aner Aldave, Bideo-analista taktikoa, banakakoa zein kolektiboa. Partiden sekuentziak erabiliz jokoan patroiak identifikatzeko, indarrak zein ahuleziak, eta doikuntza taktikoak iradokiz. Teknologia aurreratua duten hainbat analisi mota eskaintzen ditu (kolektibo propioa edo lehiakidea, zonala, ABP eta banakakoa), errendimendua hurrengo mailara eramateko behar den ezagutza emanez."
     },
     "iban-triviño": {
       "role": "Atezainen entrenatzailea",
@@ -108,6 +108,22 @@
     "edu-roldan": {
       "role": "Fisioterapeuta",
       "bio": "Kirol lesioetan espezializatuta, Eduk gure jokalariei suspertzen eta etorkizuneko lesioak saihesten laguntzen die, zelaian duten errendimendu gorena bermatuz."
+    },
+    "david-soriano": {
+      "role": "Negozioen Garapeneko Logistika Arloko Zuzendaria",
+      "bio": "Akademiaren eguneroko jarduera eta logistika optimizatzeaz arduratzen da, eta, aldi berean, hazkuntza eta jasangarritasun ekonomikoa sustatzen ditu, programa eta akordio komertzial berriak garatuz."
+    },
+    "carlos-ballesteros": {
+      "role": "Jokalarien Aagentea Nazioarteko Zuzendaria",
+      "bio": "Akademiaren nazioarteko harreman-sarea ezartzearen arduraduna. Etorkizun handieneko jokalarientzako garapen globaleko eta scouting-eko aukerak identifikatzean eta kudeatzean oinarritzen da."
+    },
+    "adrian-martinez": {
+      "role": "Jokalarien Agentea Kirol Zuzendaria",
+      "bio": "Kirol eta metodologia arloko arduraduna. Staff teknikoaren liderra da, eta bere esperientzia erabiltzen du etorkizuneko potentziala duten jokalariak identifikatu, proiektatu eta aholkatzeko."
+    },
+    "cristian-de-luis": {
+      "role": "Entrenatzaile Nagusia Metodologia Zuzendaria",
+      "bio": "Akademiako buru teknikoa. Entrenamendu-metodologia diseinatu, inplementatu eta gainbegiratzen du, irakaskuntzan batasuna eta jokalari guztien progresio zuzena bermatuz."
     }
   },
   "Galeria": {

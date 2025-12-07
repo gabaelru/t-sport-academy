@@ -43,6 +43,30 @@
       "imageHint": "retrato hombre"
     },
     {
+      "id": "david-soriano",
+      "description": "Retrato de David Soriano, Director Área Logística Desarrollo de Negocios.",
+      "imageUrl": "/images/staff/David Soriano.webp",
+      "imageHint": "retrato hombre"
+    },
+    {
+      "id": "carlos-ballesteros",
+      "description": "Retrato de Carlos Ballesteros, Agente de Jugadores Director Internacional.",
+      "imageUrl": "/images/staff/Carlos Ballesteros.webp",
+      "imageHint": "retrato hombre"
+    },
+    {
+      "id": "adrian-martinez",
+      "description": "Retrato de Adrian Martinez, Agente de Jugadores Director Deportivo.",
+      "imageUrl": "/images/staff/Adrian Martinez.webp",
+      "imageHint": "retrato hombre"
+    },
+    {
+      "id": "cristian-de-luis",
+      "description": "Retrato de Cristian De Luis, Entrenador Principal Director de Metodología.",
+      "imageUrl": "/images/staff/Cristian De Luis.webp",
+      "imageHint": "retrato hombre"
+    },
+    {
       "id": "service-gym",
       "description": "Interior de un gimnasio moderno con equipamiento.",
       "imageUrl": "https://images.unsplash.com/photo-1710746904729-f3ad9f682bb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxnaW1uYXNpbyUyMGVxdWlwYW1pZW50b3xlbnwwfHx8fDE3NjMwMjYyMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",

@@ -7,6 +7,10 @@ import { useTranslation } from 'react-i18next';
 
 const coaches = [
   { id: 'gaizka-toquero-valencia', name: 'Gaizka Toquero' },
+  { id: 'david-soriano', name: 'David Soriano' },
+  { id: 'carlos-ballesteros', name: 'Carlos Ballesteros' },
+  { id: 'adrian-martinez', name: 'Adrian Martinez' },
+  { id: 'cristian-de-luis', name: 'Cristian De Luis' },
 ];
 
 export default function CoachesValenciaSection() {

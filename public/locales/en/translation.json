@@ -95,7 +95,7 @@
     },
     "aner-aldave": {
       "role": "Tactical Analyst",
-      "bio": "Aner Aldave, a Video and Tactical Analyst, uses video to overcome stagnation. He offers three-dimensional analysis (collective, individual, and zonal) with advanced technology, providing the precise insights needed to take performance to the next level."
+      "bio": "Aner Aldave, Tactical Video Analyst, specializing in both individual and team analysis. He uses match footage to identify patterns in play, highlighting strengths and weaknesses, and suggests tactical adjustments. He offers various types of analysis (team, opponent, zonal, set pieces, and individual) using advanced technology, providing the knowledge needed to take performance to the next level."
     },
     "iban-triviño": {
       "role": "Goalkeeper Coach",
@@ -108,6 +108,22 @@
     "edu-roldan": {
       "role": "Physiotherapist",
       "bio": "Specializing in sports injuries, Edu helps our players recover and prevent future injuries, ensuring their maximum performance on the field."
+    },
+    "david-soriano": {
+      "role": "Director of Logistics and Business Development",
+      "bio": "Responsible for optimizing the academy's daily operations and logistics, while driving growth and economic sustainability through the development of new programs and business agreements."
+    },
+    "carlos-ballesteros": {
+      "role": "Player Agent International Director",
+      "bio": "Responsible for establishing the academy's international network. Focuses on identifying and managing global development opportunities and scouting for the most promising players."
+    },
+    "adrian-martinez": {
+      "role": "Player Agent Sporting Director",
+      "bio": "Head of the sports and methodology department. Leads the technical staff and uses his experience as an agent to identify, scout, and advise players with future potential."
+    },
+    "cristian-de-luis": {
+      "role": "Head Coach, Director of Methodology",
+      "bio": "Technical leader of the academy. Designs, implements and supervises the training methodology, ensuring consistency in teaching and the proper progression of all players."
     }
   },
   "Galeria": {
