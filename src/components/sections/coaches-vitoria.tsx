@@ -11,6 +11,7 @@ const coaches = [
   { id: 'aner-aldave', name: 'Aner Aldave' },
   { id: 'iban-triviño', name: 'Iban Triviño' },
   { id: 'pablo-diez', name: 'Pablo Diez' },
+  { id: 'idurre', name: 'Idurre Frías' },
   { id: 'edu-roldan', name: 'Edu Roldán' },
 ];
 
