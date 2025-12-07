@@ -31,7 +31,7 @@ const getNavLinks = (t: (key: string) => string) => [
     isDropdown: true,
     items: [
       { href: '/services-vitoria', label: t('Navigation.ToqueroSportServicios') }, // CLAVE CORREGIDA
-      { href: '/sedes', label: t('Navigation.Sedes') },      // CLAVE CORREGIDA
+      { href: '/sedes-vitoria', label: t('Navigation.Sedes') },      // CLAVE CORREGIDA
       { href: '/staff-vitoria', label: t('Navigation.Staff') },      // CLAVE CORREGIDA
       { href: 'https://www.latiendademiclub.com/toquerosportacademy/', label: t('Navigation.Tienda'), isExternal: true }, // CLAVE CORREGIDA
     ],
@@ -41,6 +41,7 @@ const getNavLinks = (t: (key: string) => string) => [
     isDropdown: true,
     items: [
       { href: '/services-valencia', label: t('Navigation.ToqueroSportServicios') }, // CLAVE CORREGIDA
+      { href: '/sedes-valencia', label: t('Navigation.Sedes') },
       { href: '/staff-valencia', label: t('Navigation.Staff') },
     ],
   },

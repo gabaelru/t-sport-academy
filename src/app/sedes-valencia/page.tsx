@@ -1,8 +1,8 @@
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
-import SedesSection from '@/components/sections/sedes';
+import SedesSection from '@/components/sections/sedesValencia';
 
-export default function SedesPage() {
+export default function SedesValenciaPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />

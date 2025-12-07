@@ -76,6 +76,28 @@
         "Inicio: 3 de Noviembre de 2025",
         "Uso obligatorio de la equipación oficial"
       ]
+    },
+    "sede-colegio-mayor": {
+      "titulo": "Colegio Mayor Ausias March",
+      "descripcion": "Residencia de estudiantes antigua e importante de Valencia , ubicada estratégicamente entre los principales campus (Tarongers y Vera).",
+      "detalles": [
+        "Descripción: Una de las residencias de estudiantes más importantes de Valencia.",
+        "Ubicación Estratégica: Situado entre los campus universitarios de Tarongers (UV) y Vera (UPV).",
+        "Servicios Adicionales: Servicio de autobús exclusivo para otras instituciones.",
+        "Instalaciones Deportivas: Acceso a sala de cardio y sala fitness (Gimnasio).",
+        "Temporada: 2025-26."
+      ]
+    },
+    "sede-saguntino": {
+      "titulo": "Instalaciones del Atlético Saguntino",
+      "descripcion": "Sede de entrenamiento clave en la Comunidad Valenciana, ubicada en una zona de alta tradición futbolística.",
+      "detalles": [
+        "Metodología TS: Entrenamientos bajo la Base Profesional de Gaizka Toquero y su equipo técnico.",
+        "Ubicación Estratégica: Sagunto (Valencia), conectado con la Residencia Ausias March mediante transporte.",
+        "Instalaciones: Campos de césped artificial para la máxima optimización del rendimiento.",
+        "Foco: Mejora de la comprensión del juego, optimización individual y progresión continua (Pilares 360∘ de la Academia).",
+        "Temporada: 2025-26."
+      ]
     }
   },
   "Coaches": {

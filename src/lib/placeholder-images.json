@@ -107,6 +107,18 @@
       "description": "Instalaciones de Fundación Estadio.",
       "imageUrl": "/images/Sede Estadio.webp",
       "imageHint": "instalaciones deportivas"
+    },
+    {
+      "id": "sede-colegio-mayor",
+      "description": "Instalaciones de Colegio Mayor Ausias March.",
+      "imageUrl": "/images/Sede Ausias.webp",
+      "imageHint": "instalaciones deportivas"
+    },
+    {
+      "id": "sede-saguntino",
+      "description": "Instalaciones del Atlético Saguntino.",
+      "imageUrl": "/images/Sede Saguntino.webp",
+      "imageHint": "instalaciones deportivas"
     }
   ]
 }
