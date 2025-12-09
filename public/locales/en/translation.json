@@ -7,62 +7,62 @@
     "Noticias": "News",
     "Contacto": "Contact",
     "ToqueroSportServicios": "Toquero Sport Services",
-    "Sedes": "Headquarters",
+    "Sedes": "Locations",
     "Staff": "Staff",
     "Tienda": "Store"
   },
   "Hero": {
-    "Resumen": "We are dedicated to comprehensive training, guiding the next generation of football players through dedication, respect, and the continuous pursuit of personal improvement. We invite you to share the passion and knowledge of the game in a space where enjoyment is the main goal of every training session.",
+    "Resumen": "We are dedicated to comprehensive training, guiding the next generation of soccer players through dedication, respect, and the continuous pursuit of personal improvement. ",
     "Boton": "Join the Academy"
   },
   "Footer": {
-    "Pregunta": "Ready for your registration or do you have any questions? Click here. We are waiting for you!",
-    "Boton": "Register Now",
+    "Pregunta": "Are you ready to sign up or do you have any questions? Click here. We are waiting for you!",
+    "Boton": "Sign Up Now",
     "Titulo": "Links",
     "Galeria": "Gallery",
     "Noticias": "News",
-    "Tienda": "Shop",
+    "Tienda": "Store",
     "Contacto": "Contact"
   },
   "Servicios": {
     "TituloVitoria": "Our Services in Vitoria",
-    "DescripcionVitoria": "Complementary services to maximize your development as an athlete at our Vitoria headquarters.",
+    "DescripcionVitoria": "Complementary services to maximize your development as an athlete at our headquarters in Vitoria.",
     "TituloValencia": "Our Services in Valencia",
     "DescripcionValencia": "Complementary services to maximize your development as an athlete at our Valencia headquarters.",
     "service-gym": {
       "titulo": "Gym",
-      "descripcion": "Access our state-of-the-art facilities to improve your strength, agility, and endurance. Personalized training plans are available."
+      "descripcion": "Access our state-of-the-art facilities to improve your strength, agility, and endurance. Personalized training plans available."
     },
     "service-nutrition": {
       "titulo": "Nutrition",
-      "descripcion": "Our sports nutritionists will help you optimize your diet to achieve peak performance and faster recovery."
+      "descripcion": "Our sports nutritionists will help you optimize your diet to achieve maximum performance and faster recovery."
     },
     "service-physiotherapy": {
       "titulo": "Physiotherapy",
-      "descripcion": "Specialized physiotherapy services for the prevention and treatment of sports injuries to keep you on the field."
+      "descripcion": "Physiotherapy services specializing in the prevention and treatment of sports injuries to keep you on the field."
     },
     "service-organizations": {
       "titulo": "Club consulting",
-      "descripcion": "We promote the development of people with personalized services for organizations and clubs."
+      "descripcion": "We promote personal development with customized services for organizations and clubs."
     },
     "Boton": "Hire"    
   },
   "Sedes": {
-    "TituloSedes": "Our Headquarters",
+    "TituloSedes": "Our Locations",
     "SubtituloSedesVitoria": "We have two locations in Vitoria. We have carefully selected our facilities to ensure a high-quality training environment.",
     "SubtituloSedesValencia": "We have two locations in Valencia. We have carefully selected our facilities to ensure a high-quality training environment.",
     "InscribeteBoton": "Sign up",
     "sede-olabide": {
       "titulo": "Olabide Ikastola",
-      "descripcion": "A comprehensive football skills development program for all levels, in top-notch facilities.",
+      "descripcion": "A comprehensive program for improving soccer skills for all levels, in first-class facilities.",
       "detalles": [
-        "Location: Olabide Ikastola (11-a-side Football Field)",
-        "Students from the Olabide Ikastola, as well as from other educational centers and sports entities, will be able to attend.",
-        "HSchedule: Monday to Thursday, 6:00 PM - 7:15 PM",
-        "Ages: 2007-2019 (see groups)",
+        "Location: Olabide Ikastola (Soccer Field 11)",
+        "Students from Ikastola Olabide, as well as other educational centers and sports organizations, may attend.",
+        "Schedule: Monday to Thursday, 6:00 p.m. - 7:15 p.m.",
+        "Ages: 2007-2019 (check groups)",
         "Sessions: There is flexibility to choose between one, two, or three sessions per week.",
-        "Start: November 3, 2025",
-        "Mandatory use of official kit"
+        "Start date: November 3, 2025",
+        "Mandatory use of official equipment"
       ]
     },
     "sede-estadio": {
@@ -70,41 +70,63 @@
       "descripcion": "A complete sports complex with multiple fields and modern equipment for comprehensive training.",
       "detalles": [
         "Location: Fundación Estadio",
-        "Access: Only for members of the Fundación Estadio",
-        "Thursday (4:30-5:30 PM): 2012-2013",
-        "Mondays and Wednesdays (5:45-6:45 PM): 2014-2015",
+        "Access: Only for Estadio Foundation members",
+        "Thursday (4:30-5:30 p.m.): 2012-2013",
+        "Monday and Wednesday (5:45-6:45 p.m.): 2014-2015",
         "Sessions: There is flexibility to choose between one, two, or three sessions per week.",
-        "Start: November 3, 2025",
-        "Mandatory use of official kit"
+        "Start date: November 3, 2025",
+        "Mandatory use of official equipment"
+      ]
+    },
+    "sede-colegio-mayor": {
+      "titulo": "Colegio Mayor Ausias March",
+      "descripcion": "An old and important student residence in Valencia, strategically located between the main campuses (Tarongers and Vera).",
+      "detalles": [
+        "Description: One of the most important student residences in Valencia.",
+        "Strategic Location: Located between the Tarongers (UV) and Vera (UPV) university campuses.",
+        "Additional Services: Exclusive bus service for other institutions.",
+        "Sports Facilities: Access to cardio room and fitness room (gym).",
+        "Season: 2025-26."
+      ]
+    },
+    "sede-saguntino": {
+      "titulo": "Atlético Saguntino Facilities",
+      "descripcion": "Key training headquarters in the Valencian Community, located in an area with a long football tradition.",
+      "detalles": [
+        "TS Methodology: Training under the professional guidance of Gaizka Toquero and his technical team.",
+        "Strategic Location: Sagunto (Valencia), connected to the Ausias March Residence by transport.",
+        "Facilities: Artificial turf fields for maximum performance optimization.",
+        "Focus: Improving understanding of the game, individual optimization, and continuous progression (360∘ pillars of the Academy).",
+        "Season: 2025-26."
       ]
     }
   },
   "Coaches": {
     "Titulo": "Meet Our Staff",
-    "Subtitulo": "A dedicated and professional team committed to your sports and personal growth.",
+    "Subtitulo": "A professional team dedicated and committed to your athletic and personal growth.",
     "gaizka-toquero-vitoria": {
       "role": "Director",
-      "bio": "Former La Liga star with Athletic de Bilbao, Gaizka brings years of elite experience and a passion for developing young talent."
+      "bio": "A former La Liga star with Athletic Bilbao, Gaizka brings years of experience at the elite level and a passion for developing young talent."
     },
     "gaizka-toquero-valencia": {
       "role": "CEO and Founder",
-      "bio": "Former La Liga star with Athletic de Bilbao, Gaizka brings years of elite experience and a passion for developing young talent."
+      "bio": "Former La Liga star with Athletic Bilbao, Gaizka brings years of experience at the elite level and a passion for developing young talent."
     },
     "eneko-reyes": {
       "role": "Technical Director",
-      "bio": "As Technical Director, Eneko oversees the training methodology and football development of all academy categories."
+      "bio": "As Technical Director, Eneko oversees the training methodology and soccer development of all categories of the academy."
     },
     "aner-aldave": {
       "role": "Tactical Analyst",
-      "bio": "Aner Aldave, Tactical Video Analyst, specializing in both individual and team analysis. He uses match footage to identify patterns in play, highlighting strengths and weaknesses, and suggests tactical adjustments. He offers various types of analysis (team, opponent, zonal, set pieces, and individual) using advanced technology, providing the knowledge needed to take performance to the next level."
+      "bio": "Aner Aldave, Tactical Video Analyst, both individual and collective. He uses match footage to identify patterns in the game, both strengths and weaknesses, and suggests tactical adjustments. He offers different types of analysis (team or opponent, zonal, ABP, and individual) with advanced technology, providing the knowledge necessary to take performance to the next level."
     },
     "iban-triviño": {
       "role": "Goalkeeper Coach",
-      "bio": "An expert in specific goalkeeper training, Iban helps our keepers reach their maximum potential."
+      "bio": "An expert in specific goalkeeper training, Iban helps our goalkeepers reach their full potential."
     },
     "pablo-diez": {
       "role": "Coach",
-      "bio": "Pablo specializes in the individual and collective technical-tactical development of our players, helping them reach their maximum potential on the field."
+      "bio": "Pablo specializes in the individual and collective technical-tactical development of our players, helping them reach their full potential on the field."
     },
     "edu-roldan": {
       "role": "Physiotherapist",
@@ -112,23 +134,23 @@
     },
     "david-soriano": {
       "role": "Director of Logistics and Business Development",
-      "bio": "Responsible for optimizing the academy's daily operations and logistics, while driving growth and economic sustainability through the development of new programs and business agreements."
+      "bio": "Responsible for optimizing the academy's daily operations and logistics, while driving growth and economic sustainability through the development of new programs and commercial agreements."
     },
     "carlos-ballesteros": {
-      "role": "Player Agent International Director",
-      "bio": "Responsible for establishing the academy's international network. Focuses on identifying and managing global development opportunities and scouting for the most promising players."
+      "role": "International Director of Player Agency",
+      "bio": "Responsible for establishing the academy's international network of contacts. Focuses on identifying and managing global development and scouting opportunities for players with the greatest potential."
     },
     "adrian-martinez": {
-      "role": "Player Agent Sporting Director",
-      "bio": "Head of the sports and methodology department. Leads the technical staff and uses his experience as an agent to identify, scout, and advise players with future potential."
+      "role": "Sports Director, Player Agent",
+      "bio": "Responsible for the sports and methodology area. Leads the technical staff and uses his experience as an agent to identify, project, and advise players with future potential."
     },
     "cristian-de-luis": {
-      "role": "Head Coach, Director of Methodology",
-      "bio": "Technical leader of the academy. Designs, implements and supervises the training methodology, ensuring consistency in teaching and the proper progression of all players."
+      "role": "Head Coach Director of Methodology",
+      "bio": "Technical leader of the academy. Designs, implements, and supervises the training methodology, ensuring unity in teaching and the correct progression of all players."
     },
     "idurre": {
       "role": "Methodological Coordinator",
-      "bio": "Idurre applies a structured methodology adapted to each stage and team to ensure coherent, meaningful sessions focused on real gameplay."
+      "bio": "Idurre applies a structured methodology adapted to each stage and team to ensure consistent, meaningful sessions geared towards real play."
     }
   },
   "Galeria": {
@@ -139,6 +161,6 @@
     "Titulo": "Get in touch",
     "Descripcion": "Ready to get started? Contact us and take the first step.",
     "Telefono": "Phone",
-    "Email": "Email"
+    "Email": "Email Address"
   }
 }
