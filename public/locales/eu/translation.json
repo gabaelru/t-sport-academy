@@ -49,7 +49,8 @@
   },
   "Sedes": {
     "TituloSedes": "Gure Egoitzak",
-    "SubtituloSedes": "Bi kokaleku ditugu Vitorian. Gure instalazioak arretaz hautatu ditugu kalitate handiko prestakuntza-ingurune bat bermatzeko.",
+    "SubtituloSedesVitoria": "Bi kokaleku ditugu Vitorian. Gure instalazioak arretaz hautatu ditugu kalitate handiko prestakuntza-ingurune bat bermatzeko.",
+    "SubtituloSedesValencia": "Bi kokaleku ditugu Valencian. Gure instalazioak arretaz hautatu ditugu kalitate handiko prestakuntza-ingurune bat bermatzeko.",
     "InscribeteBoton": "Izena eman",
     "sede-olabide": {
       "titulo": "Olabide Ikastola",

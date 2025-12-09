@@ -31,7 +31,7 @@ export default function SedesSection() {
           <div className="space-y-2">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">{t('Sedes.TituloSedes')}</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              {t('Sedes.SubtituloSedes')}
+              {t('Sedes.SubtituloSedesValencia')}
             </p>
           </div>
         </div>

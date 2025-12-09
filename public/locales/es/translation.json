@@ -49,7 +49,8 @@
   },
   "Sedes": {
     "TituloSedes": "Nuestras Sedes",
-    "SubtituloSedes": "Contamos con dos sedes en Vitoria. Hemos cuidado la selección de instalaciones para asegurar un entorno de entrenamiento de alta calidad.",
+    "SubtituloSedesVitoria": "Contamos con dos sedes en Vitoria. Hemos cuidado la selección de instalaciones para asegurar un entorno de entrenamiento de alta calidad.",
+    "SubtituloSedesValencia": "Contamos con dos sedes en Valencia. Hemos cuidado la selección de instalaciones para asegurar un entorno de entrenamiento de alta calidad.",
     "InscribeteBoton": "Inscríbete",
     "sede-olabide": {
       "titulo": "Olabide Ikastola",

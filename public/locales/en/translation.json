@@ -49,7 +49,8 @@
   },
   "Sedes": {
     "TituloSedes": "Our Headquarters",
-    "SubtituloSedes": "We have two locations in Vitoria. We have carefully selected our facilities to ensure a high-quality training environment.",
+    "SubtituloSedesVitoria": "We have two locations in Vitoria. We have carefully selected our facilities to ensure a high-quality training environment.",
+    "SubtituloSedesValencia": "We have two locations in Valencia. We have carefully selected our facilities to ensure a high-quality training environment.",
     "InscribeteBoton": "Sign up",
     "sede-olabide": {
       "titulo": "Olabide Ikastola",
