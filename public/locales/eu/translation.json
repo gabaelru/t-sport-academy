@@ -12,12 +12,12 @@
     "Tienda": "Denda"
   },
   "Hero": {
-    "Resumen": "Prestakuntza integralean aritzen gara, eta futbolarien hurrengo belaunaldia gidatzen dugu dedikazioaren, errespetuaren eta hobekuntza pertsonalaren etengabeko bilaketaren bidez. Jolasarekiko grina eta ezagutza partekatzera gonbidatzen zaitugu, entrenamendu bakoitzaren helburu nagusia gozamena den espazio batean.",
-    "Boton": "Egin bat Akademiarekin"
+    "Resumen": "Prestakuntza integrala ematen dugu hurrengo belaunaldirako futbolariak gidatuz dedikazioaren, errespetuaren eta etengabeko hobekuntza pertsonalaren bidez. Jolasaren pasioa eta ezagutza partekatzera gonbidatzen zaitugu, entrenamendu bakoitzaren helburu nagusia gozamena den espazio batean.",
+    "Boton": "Egin bat akademiarekin"
   },
   "Footer": {
-    "Pregunta": "Dena prest izena emateko edo zalantzaren bat duzu? Egin klik hemen. zure zain gaude!",
-    "Boton": "Eman izena orain",
+    "Pregunta": "Dena prest izena emateko edo zalantzaren bat duzu? Egin klik hemen. Zure zain gaude!",
+    "Boton": "Eman orain izena",
     "Titulo": "Loturak",
     "Galeria": "Galeria",
     "Noticias": "Berriak",
@@ -25,132 +25,132 @@
     "Contacto": "Kontaktua"
   },
   "Servicios": {
-    "TituloVitoria": "Gure Zerbitzuak Gasteizen",
-    "DescripcionVitoria": "Zerbitzu osagarriak Gasteizko gure egoitzan kirolari gisa duzun garapena maximizatzeko.",
-    "TituloValencia": "Gure Zerbitzuak Valentzian",
-    "DescripcionValencia": "Zerbitzu osagarriak Valentziako gure egoitzan kirolari gisa duzun garapena maximizatzeko.",
+    "TituloVitoria": "Gure zerbitzuak Gasteizen",
+    "DescripcionVitoria": "Gure Gasteizko egoitzan kirolaria ahalik eta gehien garatzeko zerbitzu osagarriak.",
+    "TituloValencia": "Gure zerbitzuak Valentzian",
+    "DescripcionValencia": "Zerbitzu osagarriak kirolari gisa ahalik eta gehien garatzeko.",
     "service-gym": {
       "titulo": "Gimnasioa",
-      "descripcion": "Sartu gure abangoardiako instalazioetara zure indarra, arintasuna eta erresistentzia hobetzeko. Eskuragarri dauden entrenamendu-plan pertsonalizatuak."
+      "descripcion": "Etorri gure instalazioetara zure indarra, arintasuna eta erresistentzia hobetzeko. Entrenamendu-plan pertsonalizatuak."
     },
     "service-nutrition": {
-      "titulo": "Nutrizioa",
-      "descripcion": "Gure kirol-nutrizionistek zure dieta optimizatzen lagunduko dizute, ahalik eta errendimendu handiena eta errekuperazio azkarragoa lortzeko."
+      "titulo": "Elikadura",
+      "descripcion": "Gure kirol-nutrizionistek zure dieta optimizatzen lagunduko dizute, ahalik eta errendimendu handiena lortzeko eta azkarrago errekuperatzeko."
     },
     "service-physiotherapy": {
       "titulo": "Fisioterapia",
-      "descripcion": "Kirol lesioen prebentzioan eta tratamenduan espezializatutako fisioterapia zerbitzuak, zu zelaian mantentzeko."
+      "descripcion": "Fisioterapia-zerbitzu espezializatuak kirol-lesioen tratamenduetan eta prebentzioetarako tratamenduetan."
     },
     "service-organizations": {
-      "titulo": "Kluben aholkularitza",
-      "descripcion": "Antolakunde eta klubentzako zerbitzu pertsonalizatuak dituzten pertsonen garapena bultzatzen dugu."
+      "titulo": "Klubetako aholkularitza",
+      "descripcion": "Erakunde eta klubentzako zerbitzu pertsonalizatuak dituzten pertsonen garapena bultzatzen dugu."
     },
-    "Boton": "Uzkurtu"    
+    "Boton": "Kontratatu"    
   },
   "Sedes": {
     "TituloSedes": "Gure Egoitzak",
-    "SubtituloSedesVitoria": "Bi kokaleku ditugu Vitorian. Gure instalazioak arretaz hautatu ditugu kalitate handiko prestakuntza-ingurune bat bermatzeko.",
-    "SubtituloSedesValencia": "Bi kokaleku ditugu Valencian. Gure instalazioak arretaz hautatu ditugu kalitate handiko prestakuntza-ingurune bat bermatzeko.",
+    "SubtituloSedesVitoria": "Bi egoitza ditugu Gasteizen. Instalazioen aukeraketa zaindu dugu, kalitatezko entrenamenduak ziurtatzeko.",
+    "SubtituloSedesValencia": "Valentzian bi egoitza ditugu. Instalazioen aukeraketa zaindu dugu, kalitate handiko entrenamendu-ingurunea ziurtatuz.",
     "InscribeteBoton": "Eman izena",
     "sede-olabide": {
       "titulo": "Ikastola Olabide",
-      "descripcion": "Maila guztietarako futbol-gaitasunak hobetzeko programa oso bat, lehen mailako instalazioetan.",
+      "descripcion": "Lehen mailako instalazio batzuetan, maila guztietarako futbol-gaitasunak hobetzeko programa oso bat eskaitzen da.",
       "detalles": [
-        "Kokapena: Olabide Ikastola (11ko futbol zelaia)",
-        "Olabide Ikastolako ikasleek parte hartu ahal izango dute, baita beste ikastetxe eta kirol erakunde batzuetakoek ere.",
+        "KKokapena: Olabide Ikastola (Futbol Zelaia 11)",
+        "Olabide Ikastolako ikasleek zein beste ikastetxe eta kirol-erakunde batzuetako ikasleek parte hartu ahal dute.",
         "Ordutegia: Astelehenetik ostegunera, 18:00 - 19:15",
-        "Adinak: 2007-2019 (taldeak kontsultatu)",
-        "Saioak: astean saio bat, bi edo hiru aukeratzeko malgutasuna dago.",
-        "Hasiera: 2025eko azaroaren 3a",
-        "Ekipamendu ofiziala nahitaez erabiltzea"
+        "Adinak: 2007-2019 (kontsultatu taldeak)",
+        "Saioak: Astean bat, bi edo hiru saioen artean aukeratzeko malgutasuna dago.",
+        "Hasiera: 2025eko Azaroaren 3an",
+        "Akademiaren ekipazioa nahitaez erabili behar da"
       ]
     },
     "sede-estadio": {
       "titulo": "Estadio Fundazioa",
-      "descripcion": "Kirol-gune oso bat, zelai ugari eta ekipamendu modernoa dituena, entrenamendu integrala egiteko.",
+      "descripcion": "Kirol-gune oso bat, hainbat eremurekin eta entrenamendu integrala egiteko ekipamenduarekin.",
       "detalles": [
-        "Lekua: Estadio Fundazioa",
+        "Kokapena: Estadio Fundazioa",
         "Sarbidea: Estadio Fundazioko abonatuentzat bakarrik",
         "Osteguna (16:30-17:30): 2012-2013",
-        "Astelehena eta asteazkena (17:45-18:45): 2014-2015",
-        "Saioak: astean saio bat, bi edo hiru aukeratzeko malgutasuna dago.",
-        "Hasiera: 2025eko azaroaren 3a",
-        "Ekipamendu ofiziala nahitaez erabiltzea"
+        "Astelehen eta asteazkenetan (17:45-18: 45): 2014-2015",
+        "Saioak: Astean bat, bi edo hiru sairen artean aukeratzeko malgutasuna dago.",
+        "HHasiera: 2025eko Azaroaren 3an",
+        "Akademiaren ekipazioa nahitaez erabili behar da"
       ]
     },
     "sede-colegio-mayor": {
       "titulo": "Ausias March Ikastetxe Nagusia",
-      "descripcion": "Valentziako ikasle-egoitza zahar eta garrantzitsua, estrategikoki campus nagusien artean kokatua (Tarongers eta Vera).",
+      "descripcion": "Ikasleen egoitza garrantzitsua Valentzian, campus nagusien artean estrategikoki kokatua (Tarongers eta Vera).",
       "detalles": [
-        "Deskribapena: Valentziako ikasle-egoitza garrantzitsuenetako bat.",
-        "Kokapen estrategikoa: Tarongers (UV) eta Vera (UPV) unibertsitate-campusetan kokatua.",
-        "Zerbitzu Gehigarriak: Autobus zerbitzu esklusiboa beste erakunde batzuentzat.",
-        "Kirol Instalazioak: Kardio gela eta fitness gela (Gimnasioa).",
+        "Deskribapena: Valentziako ikasleen egoitza garrantzitsuenetako bat.",
+        "Kokapen estrategikoa: Tarongers (UV) eta Verako (UPV) unibertsitate-campusen artean dago.",
+        "Zerbitzu Gehigarriak: Beste erakunde batzuentzako autobus zerbitzu esklusiboa.",
+        "Kirol Instalazioak: Kardio gela eta fitness gelarako sarbidea (gimnasioa).",
         "Denboraldia: 2025-26."
       ]
     },
     "sede-saguntino": {
       "titulo": "Atletico Saguntinoren instalazioak",
-      "descripcion": "Valentziako Erkidegoan funtsezko entrenamendu-egoitza da, futbolean tradizio handia duen eremu batean kokatua.",
+      "descripcion": "Valentziako Erkidegoko entrenamendu-egoitza nagusia, futbol-tradizio handiko eremu batean kokatua.",
       "detalles": [
-        "TS Metodologia: Gaizka Toquero eta bere talde teknikoaren Oinarri Profesionalaren araberako entrenamenduak.",
-        "Kokapen estrategikoa: Sagunto (Valentzia), Ausias March egoitzarekin garraio bidez konektatua.",
-        "Instalazioak: Soropil artifizialeko zelaiak, errendimendua ahalik eta gehien optimizatzeko.",
-        "Fokua: Jolasaren ulermena hobetzea, banakako optimizazioa eta etengabeko progresioa (Akademiaren 360 zutabeak-).",
+        "TS metodologia: Gaizka Toqueroren eta bere talde teknikoaren entrenamenduak.",
+        "Kokapen estrategikoa: Sagunto (Valentzia), Ausias March egoitzarekin garraio pribatu baten bidez konektatua.",
+        "Instalazioak: Artifizialezko zelaiak errendimendua optimizatzeko.",
+        "Fokua: Jolasaren ulermena hobetzea, banakako optimizazioa eta etengabeko progresioa (Akademiaren 360 zutabeak).",
         "Denboraldia: 2025-26."
       ]
     }
   },
   "Coaches": {
     "Titulo": "Ezagutu gure Staff",
-    "Subtitulo": "Zure kirol-hazkundearekin eta hazkunde pertsonalarekin konprometitutako talde profesionala.",
+    "Subtitulo": "Zure kirol-hazkundearekin eta hazkunde pertsonalarekin konprometitutako talde profesional bat.",
     "gaizka-toquero-vitoria": {
       "role": "Zuzendaria",
-      "bio": "Athleticekin Ligako izar ohia, Gaizkak elitean urte askotako esperientzia du eta talentu gazteak garatzeko grina."
+      "bio": "Ligako jokalari ohia Athletic, Alaves eta Zaragozarekin, Gaizkak elitean esperientzia eta gazteak garatzeko grina ematen ditu."
     },
     "gaizka-toquero-valencia": {
-      "role": "CEO eta fundatzailea",
-      "bio": "Athleticekin Ligako izar ohia, Gaizkak elitean urte askotako esperientzia du eta talentu gazteak garatzeko grina."
+      "role": "CEO eta sortzailea",
+      "bio": "Ligako izar ohia Bilboko Athleticekin, Gaizkak elitean esperientzia eta gazteak garatzeko grina ematen ditu."
     },
     "eneko-reyes": {
       "role": "Zuzendari Teknikoa",
-      "bio": "Zuzendari tekniko gisa, Enekok akademiako kategoria guztietako entrenamendu metodologia eta futbolaren garapena gainbegiratzen ditu."
+      "bio": "Zuzendari tekniko gisa, Enekok akademiako kategoria guztietako entrenamendu-metodologia eta futbol-garapena gainbegiratzen ditu."
     },
     "aner-aldave": {
       "role": "Analista Taktikoa",
-      "bio": "Aner Aldave, Bideo-analista taktikoa, banakakoa zein kolektiboa. Partiden sekuentziak erabiliz jokoan patroiak identifikatzeko, indarrak zein ahuleziak, eta doikuntza taktikoak iradokiz. Teknologia aurreratua duten hainbat analisi mota eskaintzen ditu (kolektibo propioa edo lehiakidea, zonala, ABP eta banakakoa), errendimendua hurrengo mailara eramateko behar den ezagutza emanez."
+      "bio": "Aner Aldave, bideo-analista taktikoa, banakakoa zein kolektiboa da. Partiduen sekuentziak erabiliz, jokoan patroiak identifikatzeko, indarguneak zein ahuleziak, aholkuak emanez. Hainbat analisi mota eskaintzen ditu (talde propioa edo aurkaria, Zonala, ABP eta indibiduala) teknologia aurreratuarekin eta errendimendua hurrengo mailara eramateko behar den ezagutza ematen du."
     },
     "iban-triviño": {
       "role": "Atezainen Entrenatzailea",
-      "bio": "Atezainen entrenamendu espezifikoan aditua, Ibanek bere potentzial maximoa lortzen laguntzen die gure atezainei."
+      "bio": "Atezainen entrenamenduetan aditua, Ivanek ahalik eta potentzial handiena lortzen laguntzen die gure atezainei."
     },
     "pablo-diez": {
       "role": "Entrenatzailea",
-      "bio": "Pablo gure jokalarien garapen tekniko-taktiko indibidual eta kolektiboan espezializatzen da, zelaian duten potentzial handiena lortzen lagunduz."
+      "bio": "Pablo gure jokalarien garapen tekniko-taktiko indibidualean eta kolektiboan espezializatzen da, eta zelaian ahalik eta potentzial handiena lortzen laguntzen die."
     },
     "edu-roldan": {
       "role": "Fisioterapeuta",
-      "bio": "Kirol lesioetan espezializatua, Eduk gure jokalariei sendatzen eta etorkizuneko lesioak prebenitzen laguntzen die, zelaian ahalik eta errendimendu handiena ziurtatuz."
+      "bio": "Kirol lesioetan espezializatua, Eduk gure jokalariei suspertzen eta etorkizuneko lesioak prebenitzen laguntzen die, zelaian errendimendu handiena ziurtatuz."
     },
     "david-soriano": {
-      "role": "Negozioen Garapeneko Logistika Arloko Zuzendaria",
-      "bio": "Akademiaren eguneroko jarduera eta logistika optimizatzeaz arduratzen da, eta, aldi berean, hazkuntza eta jasangarritasun ekonomikoa sustatzen ditu, programa eta akordio komertzial berriak garatuz."
+      "role": "Negozioen Garapeneko Logistika Arloko zuzendaria",
+      "bio": "Akademiaren eguneroko jarduna eta logistika optimizatzeaz arduratzen da, merkataritza programa eta akordio berrien garapenaren bidez hazkundea eta jasangarritasun ekonomikoa bultzatzen dituen bitartean."
     },
     "carlos-ballesteros": {
-      "role": "Jokalarien agentea Nazioarteko zuzendaria",
-      "bio": "Akademiaren nazioarteko harreman-sarea ezartzearen arduraduna. Etorkizun handieneko jokalarientzako garapen globaleko eta scouting-eko aukerak identifikatzean eta kudeatzean oinarritzen da."
+      "role": "Nazioarteko Jokalari Zuzendaria",
+      "bio": "Akademiaren nazioarteko kontaktu-sarea ezartzeaz arduratzen da. Proiekzio handiena duten jokalarientzako garapen globaleko eta scoutingeko aukerak identifikatu eta kudeatzera bideratuta dago."
     },
     "adrian-martinez": {
       "role": "Jokalarien agentea Kirol zuzendaria",
-      "bio": "Kirol eta metodologia arloko arduraduna. Staff teknikoaren liderra da, eta bere esperientzia erabiltzen du etorkizuneko potentziala duten jokalariak identifikatu, proiektatu eta aholkatzeko."
+      "bio": "Kirol eta metodología arloko arduraduna. Staff teknikoa gidatzen du, eta agente gisa duen esperientzia erabiltzen du etorkizunerako potentziala duten jokalariak identifikatzeko, proiektatzeko eta aholkatzeko."
     },
     "cristian-de-luis": {
       "role": "Entrenatzaile nagusia Metodologia zuzendaria",
-      "bio": "Akademiako buru teknikoa. Entrenamendu-metodologia diseinatu, inplementatu eta gainbegiratzen du, irakaskuntzan batasuna eta jokalari guztien progresio zuzena bermatuz."
+      "bio": "Akademiako buru teknikoa. Entrenamendu-metodologia diseinatu, inplementatu eta gainbegiratzen du, irakaskuntzaren batasuna eta jokalari guztien aurrerapen egokia ziurtatuz."
     },
     "idurre": {
       "role": "Koordinatzaile metodologikoa",
-      "bio": "Idurrek etapa eta talde bakoitzari egokitutako metodologia egituratua aplikatzen du, saio koherenteak, zentzudunak eta benetako jokora bideratuak bermatzeko."
+      "bio": "Idurrek metodologia egituratua aplikatzen du, etapa eta talde bakoitzari egokitua saio koherenteak, zentzudunak eta benetako jolasera bideratuak bermatzeko."
     }
   },
   "Galeria": {
