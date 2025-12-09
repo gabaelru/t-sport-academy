@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 
 const NEWS_DIR = path.join(process.cwd(), 'content', 'noticias');
 
-export type NewsItem = {
+export interface  NewsItem {
   title: string;
   date: string;
   category?: string;
