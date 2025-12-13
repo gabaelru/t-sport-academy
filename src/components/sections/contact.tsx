@@ -34,7 +34,7 @@ export default function ContactSection() {
                         </div>
                         <div>
                             <h3 className="font-semibold">{t('Contacto.Email')}</h3>
-                            <p className="text-muted-foreground">info@toquerosport.com</p>
+                            <p className="text-muted-foreground">toquerosportacademy@gmail.com</p>
                         </div>
                     </div>
                 </div>
