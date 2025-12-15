@@ -8,4 +8,4 @@ image: "/images/noticias/noticia-2.webp"
 translationId: "noticia-2"
 ---
 
-¡Es un honor presentarte a nuestro **Director Técnico**! 👋 Conoce a **Eneko Reyes**, el líder deportivo de Toquero Sport Academy Vitoria. ¡Gracias, Eneko, por tu compromiso con nuestros jóvenes talentos!
+Ohore handia da gure **Zuzendari Teknikoa** aurkeztea! 👋 Ezagutu **Eneko Reyes**, Toquero Sport Academy Vitoriako kirol liderra. eskerrik asko, Eneko, gure talentu gazteekin duzun konpromisoagatik!

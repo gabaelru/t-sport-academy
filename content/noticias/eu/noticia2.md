@@ -3,7 +3,7 @@ title: "Zuzendari Teknikoa"
 date: "2025-09-09"
 category: "academiaVitoria"
 slug: "zuzendari-teknikoa"
-resumen: "Eneko Reyes aurkezten dizuegu, Toquero Sport Academy Vitoria-ko zuzendari teknikoa. Eskerrik asko gugan konfiantza izateagatik."
+resumen: "Hemen duzue Eneko Reyes, Toquero Sport Academy Vitoriako zuzendari teknikoa. Eskerrik asko gugan konfiantza izateagatik."
 image: "/images/noticias/noticia-2.webp"
 translationId: "noticia-2"
 ---
