@@ -30,7 +30,7 @@ export default function SedesSection() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">{t('Sedes.TituloSedes')}</h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               {t('Sedes.SubtituloSedesValencia')}
             </p>
           </div>
@@ -65,8 +65,8 @@ export default function SedesSection() {
                   <CardTitle className="font-headline">{translatedTitle}</CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow flex flex-col gap-4">
-                  <p className="text-muted-foreground">{t(descriptionKey)}</p>
-                  <ul className="space-y-2 text-sm text-muted-foreground">
+                  <p>{t(descriptionKey)}</p>
+                  <ul className="space-y-2 text-sm">
                     {translatedDetails.map((detail, index) => (
                       <li key={index} className="flex items-start gap-2">
                         <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />

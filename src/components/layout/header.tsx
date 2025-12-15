@@ -1,8 +1,9 @@
-"use client";
+'use client';
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useParams } from 'next/navigation'; // 💡 1. Importar el hook useParams
 import { Menu, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
@@ -19,50 +20,55 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-// --- i18n Importaciones ---
 import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from '@/components/LanguageSwitcher'; 
-// -------------------------
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
-// Función que genera los enlaces usando la función de traducción 't'
 const getNavLinks = (t: (key: string) => string) => [
-    {
-    label: t('Navigation.AcademyVitoria'), // CLAVE CORREGIDA
+  {
+    label: t('Navigation.AcademyVitoria'),
     isDropdown: true,
     items: [
-      { href: '/services-vitoria', label: t('Navigation.ToqueroSportServicios') }, // CLAVE CORREGIDA
-      { href: '/sedes-vitoria', label: t('Navigation.Sedes') },      // CLAVE CORREGIDA
-      { href: '/staff-vitoria', label: t('Navigation.Staff') },      // CLAVE CORREGIDA
-      { href: 'https://www.latiendademiclub.com/toquerosportacademy/', label: t('Navigation.Tienda'), isExternal: true }, // CLAVE CORREGIDA
+      { href: '/services-vitoria', label: t('Navigation.ToqueroSportServicios') },
+      { href: '/sedes-vitoria', label: t('Navigation.Sedes') },
+      { href: '/staff-vitoria', label: t('Navigation.Staff') },
+      { href: 'https://www.latiendademiclub.com/toquerosportacademy/', label: t('Navigation.Tienda'), isExternal: true },
     ],
   },
   {
-    label: t('Navigation.AcademyValencia'), // CLAVE CORREGIDA
+    label: t('Navigation.AcademyValencia'),
     isDropdown: true,
     items: [
-      { href: '/services-valencia', label: t('Navigation.ToqueroSportServicios') }, // CLAVE CORREGIDA
+      { href: '/services-valencia', label: t('Navigation.ToqueroSportServicios') },
       { href: '/sedes-valencia', label: t('Navigation.Sedes') },
       { href: '/staff-valencia', label: t('Navigation.Staff') },
     ],
   },
-  { href: '/galeria', label: t('Navigation.Galeria') }, // CLAVE CORREGIDA
-  { href: '/noticias', label: t('Navigation.Noticias') }, // CLAVE CORREGIDA
-  { href: '/contact', label: t('Navigation.Contacto') }, // CLAVE CORREGIDA
+  { href: '/galeria', label: t('Navigation.Galeria') },
+  { href: '/noticias', label: t('Navigation.Noticias') },
+  { href: '/contact', label: t('Navigation.Contacto') },
 ];
 
+// 💡 2. NavLink ahora obtiene el idioma con el hook useParams
 const NavLink = ({ href, label, isExternal, onClick, className }: { href: string; label: string; isExternal?: boolean; onClick?: () => void; className?: string; }) => {
+  const params = useParams();
+  const lang = params.lang as string;
   const linkProps = isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {};
+  
+  // La lógica para construir la URL ahora es más fiable
+  const finalHref = !isExternal && lang ? `/${lang}${href}` : href;
+
   return (
-    <Link href={href} {...linkProps} onClick={onClick} className={cn("font-medium text-foreground/80 transition-colors hover:text-foreground", className)}>
+    <Link href={finalHref} {...linkProps} onClick={onClick} className={cn("font-medium text-white transition-colors hover:text-gray-200", className)}>
       {label}
     </Link>
   );
 };
 
+// 💡 3. Los dropdowns ya no necesitan recibir ni pasar el idioma
 const DesktopDropdown = ({ link }: { link: any }) => (
   <DropdownMenu>
     <DropdownMenuTrigger asChild>
-       <Button variant="ghost" className="flex items-center gap-1 font-medium text-foreground/80 transition-colors hover:text-foreground hover:bg-accent/50 px-3 py-2 h-auto">
+       <Button variant="ghost" className="flex items-center gap-1 font-medium text-white transition-colors hover:text-gray-200 hover:bg-accent/50 px-3 py-2 h-auto">
         {link.label}
         <ChevronDown className="h-4 w-4" />
       </Button>
@@ -82,7 +88,7 @@ const DesktopDropdown = ({ link }: { link: any }) => (
 const MobileDropdown = ({ link, closeMenu }: { link: any, closeMenu: () => void }) => (
   <Accordion type="single" collapsible className="w-full" disabled={!link.items || link.items.length === 0}>
     <AccordionItem value={link.label} className="border-b-0">
-      <AccordionTrigger className="text-lg font-medium text-foreground/80 transition-colors hover:text-foreground hover:no-underline py-2">
+      <AccordionTrigger className="text-lg font-medium text-white transition-colors hover:text-gray-200 hover:no-underline py-2">
         <span className="w-full text-left">{link.label}</span>
       </AccordionTrigger>
       <AccordionContent className="pt-2 pl-4">
@@ -96,17 +102,15 @@ const MobileDropdown = ({ link, closeMenu }: { link: any, closeMenu: () => void 
   </Accordion>
 );
 
-
+// 💡 4. El Header ya no necesita la propiedad lang
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
-
-  // --- i18n Hook ---
-  // 1. ELIMINAMOS 'Navigation' para usar el defaultNS ('translation')
   const { t } = useTranslation(); 
+  const params = useParams();
+  const lang = params.lang as string;
   const navLinks = getNavLinks(t);
-  // -------------------
 
   useEffect(() => {
     setIsClient(true);
@@ -127,40 +131,37 @@ export default function Header() {
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
-        <Link href="/" className="flex items-center gap-2" onClick={closeMobileMenu}>
+        {/* El enlace del logo también usa el idioma del hook */}
+        <Link href={`/${lang}`} className="flex items-center gap-2" onClick={closeMobileMenu}>
           <Image src="/images/logo-toquero-sport.png" alt="Toquero Sport Academy" width={32} height={32} className="h-8 w-auto" />
-          <span className="font-headline text-xl font-bold text-foreground">
+          <span className="font-headline text-xl font-bold text-white">
             TOQUERO SPORT ACADEMY
           </span>
         </Link>
         
         {isClient && (
-          // Contenedor flexible para la navegación y el selector de idioma
           <div className='flex items-center gap-2'> 
-            {/* Desktop Navigation */}
             <nav className="hidden items-center gap-2 md:flex">
               {navLinks.map((link) => 
                 link.isDropdown 
                   ? <DesktopDropdown key={link.label} link={link} />
-                  : <Button key={link.href} variant="ghost" asChild className="font-medium text-foreground/80 px-3 py-2 h-auto"><NavLink href={link.href!} label={link.label} /></Button>
+                  : <Button key={link.href} variant="ghost" asChild className="font-medium text-white px-3 py-2 h-auto"><NavLink href={link.href!} label={link.label} /></Button>
               )}
             </nav>
 
-            {/* Language Switcher */}
             <LanguageSwitcher />
 
-            {/* Mobile Navigation */}
             <div className="md:hidden">
               <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
                 <SheetTrigger asChild>
                   <Button variant="ghost" size="icon">
                     <Menu className="h-6 w-6" />
-                    <span className="sr-only">{t('Navigation.OpenMenu')}</span> {/* CLAVE CORREGIDA */}
+                    <span className="sr-only">{t('Navigation.OpenMenu')}</span>
                   </Button>
                 </SheetTrigger>
                 <SheetContent side="right" className="w-[300px] bg-background p-0">
                     <SheetHeader className="p-6 border-b">
-                       <SheetTitle className="text-lg font-semibold text-left">{t('Navigation.MenuTitle')}</SheetTitle> {/* CLAVE CORREGIDA */}
+                       <SheetTitle className="text-lg font-semibold text-left">{t('Navigation.MenuTitle')}</SheetTitle>
                     </SheetHeader>
                   <div className="flex h-full flex-col pt-0 p-6">
                     <nav className="flex flex-col items-start gap-2">

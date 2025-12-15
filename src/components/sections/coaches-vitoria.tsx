@@ -22,12 +22,12 @@ export default function CoachesVitoriaSection() {
   const subtitleKey = 'Coaches.Subtitulo';
 
   return (
-    <section id="coaches" className="w-full py-16 md:py-24 lg:py-32 bg-card scroll-mt-20">
+    <section id="coaches" className="w-full py-16 md:py-24 lg:py-32 scroll-mt-20">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-5xl">{t(titleKey)}</h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             {t(subtitleKey)}
             </p>
           </div>
@@ -60,7 +60,7 @@ export default function CoachesVitoriaSection() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">{t(bioKey)}</p>
+                  <p>{t(bioKey)}</p>
                 </CardContent>
               </Card>
             );

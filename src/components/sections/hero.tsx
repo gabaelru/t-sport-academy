@@ -15,10 +15,10 @@ export default function HeroSection() {
         
         {/* COLUMNA 1: Contenido (Texto y CTA) - Sin cambios */}
         <div className="lg:w-1/2 text-center lg:text-left order-2 lg:order-1">
-          <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-gray-900 dark:text-white">
+          <h1 className="font-headline text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl text-white">
             Toquero Sport Academy
           </h1>
-          <p className="mx-auto lg:mx-0 mt-6 max-w-3xl text-lg text-gray-600 dark:text-gray-300 md:text-xl">
+          <p className="mx-auto lg:mx-0 mt-6 max-w-3xl text-lg text-gray-300 md:text-xl">
             {t('Hero.Resumen')}
           </p>
           <div className="mt-10 flex items-center justify-center lg:justify-start gap-4">

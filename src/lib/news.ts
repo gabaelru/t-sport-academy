@@ -1,10 +1,12 @@
+
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const NEWS_DIR = path.join(process.cwd(), 'content', 'noticias');
+const NEWS_DIR_BASE = path.join(process.cwd(), 'content', 'noticias');
+const LANGUAGES = ['en', 'es', 'eu'];
 
-export interface  NewsItem {
+export interface NewsItem {
   title: string;
   date: string;
   category?: string;
@@ -12,9 +14,11 @@ export interface  NewsItem {
   resumen?: string;
   image?: string | null;
   content?: string;
-};
+  translationId?: string;
+}
 
-export function getAllNews(): NewsItem[] {
+export function getAllNews(locale: string): NewsItem[] {
+  const NEWS_DIR = path.join(NEWS_DIR_BASE, locale);
   if (!fs.existsSync(NEWS_DIR)) return [];
 
   const files = fs.readdirSync(NEWS_DIR).filter((f) => f.endsWith('.md'));
@@ -24,14 +28,12 @@ export function getAllNews(): NewsItem[] {
     const fileContents = fs.readFileSync(fullPath, 'utf8');
     const { data, content } = matter(fileContents);
 
-    // prefer explicit frontmatter `image`, otherwise extract first image from markdown content
     const imgMatch = content.match(/!\[[^\]]*\]\(([^)]+)\)/);
     const image = data.image ?? (imgMatch ? imgMatch[1] : null);
 
-    // if the frontmatter specifies an explicit image, remove the first markdown image
-    // from the content to avoid rendering it twice (once as header image and once
-    // inside the markdown body).
-    const cleanedContent = data.image ? content.replace(/!\[[^\]]*\]\([^\)]+\)\s*/i, '') : content;
+    const cleanedContent = data.image
+      ? content.replace(/!\[[^\]]*\]\([^\)]+\)\s*/i, '')
+      : content;
 
     const item: NewsItem = {
       title: data.title ?? fileName.replace(/\.md$/, ''),
@@ -41,17 +43,39 @@ export function getAllNews(): NewsItem[] {
       resumen: data.resumen ?? undefined,
       image,
       content: cleanedContent,
+      translationId: data.translationId ?? undefined,
     };
 
     return item;
   });
 
-  // sort by date desc
   items.sort((a, b) => (a.date > b.date ? -1 : a.date < b.date ? 1 : 0));
   return items;
 }
 
-export function getNewsBySlug(slug: string): NewsItem | null {
-  const items = getAllNews();
+export function getNewsBySlug(slug: string, locale: string): NewsItem | null {
+  const items = getAllNews(locale);
   return items.find((i) => i.slug === slug) ?? null;
+}
+
+export function getTranslatedSlugs(slug: string, currentLocale: string): Record<string, string> {
+  const currentPost = getNewsBySlug(slug, currentLocale);
+  if (!currentPost || !currentPost.translationId) {
+    return {};
+  }
+
+  const translatedSlugs: Record<string, string> = {};
+
+  for (const lang of LANGUAGES) {
+    if (lang === currentLocale) continue;
+    const allNewsForLang = getAllNews(lang);
+    const translatedPost = allNewsForLang.find(
+      (p) => p.translationId === currentPost.translationId
+    );
+    if (translatedPost) {
+      translatedSlugs[lang] = translatedPost.slug;
+    }
+  }
+
+  return translatedSlugs;
 }

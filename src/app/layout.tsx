@@ -1,44 +1,37 @@
 import type { Metadata } from 'next';
+import { PT_Sans, Poppins } from 'next/font/google';
 import './globals.css';
-import { Toaster } from '@/components/ui/toaster';
-// 1. Importar el componente Provider que creamos
-import I18nProvider from '@/components/I18nProvider'; 
+import { Providers } from './providers';
+
+const ptSans = PT_Sans({ 
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-pt-sans'
+});
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-poppins'
+});
 
 export const metadata: Metadata = {
   title: 'Toquero Sport Academy',
-  description:
-    'La academia oficial de Gaizka Toquero. Formando a la próxima generación de estrellas del fútbol.',
+  description: 'Academia de fútbol Toquero Sport Academy en Vitoria y Valencia',
 };
 
-export default function RootLayout({
+// El layout raíz es agnóstico al idioma y no recibe `params`
+export default function RootLayout({ 
   children,
-}: Readonly<{
+}: { 
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    // NOTA: El atributo lang="es" aquí es estático.
-    // Para que cambie dinámicamente con el idioma, necesitarías usar el hook
-    // 'useTranslation' en un componente cliente que es más complejo
-    // en RootLayout. Por ahora, lo dejaremos estático.
-    <html lang="es" className="dark">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=PT+Sans:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body className="font-body antialiased bg-background text-foreground">
-        {/* 2. Envolver el contenido (children) con el I18nProvider */}
-        <I18nProvider>
-          {children}
-        </I18nProvider>
-        <Toaster />
+    // Solo define la estructura HTML básica.
+    <html suppressHydrationWarning className='dark'>
+      <body className={`${ptSans.variable} ${poppins.variable} font-body`}>
+        {/* No hay I18nProvider aquí */}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

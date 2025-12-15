@@ -15,26 +15,26 @@ export default function ContactSection() {
         <div className="grid gap-12">
             <div className="max-w-xl mx-auto text-center">
                 <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">{t('Contacto.Titulo')}</h2>
-                <p className="mt-4 text-muted-foreground md:text-lg">
+                <p className="mt-4 md:text-lg">
                     {t('Contacto.Descripcion')}
                 </p>
                 <div className="mt-8 space-y-4 text-left sm:flex sm:justify-center sm:gap-8 sm:space-y-0">
                     <div className="flex items-start gap-4">
-                        <div className="flex-shrink-0 rounded-md bg-primary/10 p-3 text-primary">
+                        <div className="flex-shrink-0 rounded-md p-3">
                             <Phone className="h-6 w-6" />
                         </div>
                         <div>
                             <h3 className="font-semibold">{t('Contacto.Telefono')}</h3>
-                            <p className="text-muted-foreground">(+34) 690 97 11 85</p>
+                            <p>(+34) 690 97 11 85</p>
                         </div>
                     </div>
                     <div className="flex items-start gap-4">
-                        <div className="flex-shrink-0 rounded-md bg-primary/10 p-3 text-primary">
+                        <div className="flex-shrink-0 rounded-md p-3">
                             <Mail className="h-6 w-6" />
                         </div>
                         <div>
                             <h3 className="font-semibold">{t('Contacto.Email')}</h3>
-                            <p className="text-muted-foreground">toquerosportacademy@gmail.com</p>
+                            <p>toquerosportacademy@gmail.com</p>
                         </div>
                     </div>
                 </div>

@@ -61,7 +61,7 @@ export default function ServicesVitoriaSection() {
                 <CardContent className="flex-grow">
                 </CardContent>
                 <CardFooter>
-                    <Button asChild className="w-full font-bold bg-accent text-accent-foreground hover:bg-accent/90" size="lg">
+                    <Button asChild className="w-full font-bold" size="lg">
                         <Link href={service.href} target="_blank" rel="noopener noreferrer">
                             {t('Servicios.Boton')}
                         </Link>
