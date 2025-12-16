@@ -162,5 +162,8 @@
     "Descripcion": "Ready to get started? Contact us and take the first step.",
     "Telefono": "Phone",
     "Email": "Email Address"
+  },
+  "Noticias": {
+    "Titulo": "News"
   }
 }

@@ -162,5 +162,8 @@
     "Descripcion": "¿Todo listo para empezar? Contáctanos y da el primer paso.",
     "Telefono": "Teléfono",
     "Email": "Correo Electrónico"
+  },
+  "Noticias": {
+    "Titulo": "Noticias"
   }
 }
